@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "source": "https://artificialanalysis.ai/agents/coding-agents",
+    "method": "Weighted log least squares (Laplacian system) on pairwise frontend ratios. Each pair's mean ratio is weighted by its observation count. Final scores are normalised so the best frontend = 1. See README.md for the full derivation.",
+    "tests": [
+      "Index",
+      "DeepSWE",
+      "Terminal-Bench v2",
+      "SWE-Atlas-QnA"
+    ],
+    "metric_direction": {
+      "Index": "higher_is_better",
+      "DeepSWE": "higher_is_better",
+      "Terminal-Bench v2": "higher_is_better",
+      "SWE-Atlas-QnA": "higher_is_better"
+    },
+    "total_combinations": 42,
+    "surviving_models": [
+      "GPT-5.4 (medium)",
+      "GPT-5.5 (medium)",
+      "Opus 4.7 (medium)"
+    ],
+    "surviving_frontends": [
+      "Claude Code",
+      "Codex",
+      "Cursor CLI",
+      "Opencode"
+    ],
+    "total_observations": 19
+  },
+  "scores": {
+    "Claude Code": 0.8333194726502915,
+    "Codex": 1.0,
+    "Cursor CLI": 0.8908589435927051,
+    "Opencode": 0.9711436206704789
+  },
+  "pairs": [
+    {
+      "frontend_a": "Claude Code",
+      "frontend_b": "Cursor CLI",
+      "mean_ratio": 0.9346613607708233,
+      "weight": 4,
+      "fit_ratio": 0.9354112439951882,
+      "abs_err": 0.0007498832243648668,
+      "rel_err_pct": 0.08023047232277064
+    },
+    {
+      "frontend_a": "Claude Code",
+      "frontend_b": "Opencode",
+      "mean_ratio": 0.8587690132005089,
+      "weight": 4,
+      "fit_ratio": 0.858080571105401,
+      "abs_err": -0.0006884420951078773,
+      "rel_err_pct": 0.08016615463827141
+    },
+    {
+      "frontend_a": "Codex",
+      "frontend_b": "Cursor CLI",
+      "mean_ratio": 1.1225121633365938,
+      "weight": 7,
+      "fit_ratio": 1.1225121633365938,
+      "abs_err": 0.0,
+      "rel_err_pct": 0.0
+    },
+    {
+      "frontend_a": "Cursor CLI",
+      "frontend_b": "Opencode",
+      "mean_ratio": 0.9165943710980862,
+      "weight": 4,
+      "fit_ratio": 0.917329759091302,
+      "abs_err": 0.0007353879932158192,
+      "rel_err_pct": 0.08023047232275923
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "observations": [
+    {
+      "pair": [
+        "Codex",
+        "Cursor CLI"
+      ],
+      "test": "Index",
+      "model": "GPT-5.5 (medium)",
+      "value_a": 0.7050411052321743,
+      "value_b": 0.6185271360402347,
+      "ratio": 1.1398709355676708
+    },
+    {
+      "pair": [
+        "Claude Code",
+        "Cursor CLI"
+      ],
+      "test": "Index",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.5684927805191924,
+      "value_b": 0.6020844471016523,
+      "ratio": 0.944207715804377
+    },
+    {
+      "pair": [
+        "Claude Code",
+        "Opencode"
+      ],
+      "test": "Index",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.5684927805191924,
+      "value_b": 0.6450943205982174,
+      "ratio": 0.881255286811408
+    },
+    {
+      "pair": [
+        "Cursor CLI",
+        "Opencode"
+      ],
+      "test": "Index",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.6020844471016523,
+      "value_b": 0.6450943205982174,
+      "ratio": 0.9333277752985322
+    },
+    {
+      "pair": [
+        "Codex",
+        "Cursor CLI"
+      ],
+      "test": "Index",
+      "model": "GPT-5.4 (medium)",
+      "value_a": 0.711422745711725,
+      "value_b": 0.6881333072836661,
+      "ratio": 1.0338443702427247
+    },
+    {
+      "pair": [
+        "Codex",
+        "Cursor CLI"
+      ],
+      "test": "DeepSWE",
+      "model": "GPT-5.5 (medium)",
+      "value_a": 0.566371681415929,
+      "value_b": 0.371681415929204,
+      "ratio": 1.5238095238095213
+    },
+    {
+      "pair": [
+        "Claude Code",
+        "Cursor CLI"
+      ],
+      "test": "DeepSWE",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.274336283185841,
+      "value_b": 0.315634218289085,
+      "ratio": 0.8691588785046754
+    },
+    {
+      "pair": [
+        "Claude Code",
+        "Opencode"
+      ],
+      "test": "DeepSWE",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.274336283185841,
+      "value_b": 0.395280235988201,
+      "ratio": 0.6940298507462688
+    },
+    {
+      "pair": [
+        "Cursor CLI",
+        "Opencode"
+      ],
+      "test": "DeepSWE",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.315634218289085,
+      "value_b": 0.395280235988201,
+      "ratio": 0.7985074626865649
+    },
+    {
+      "pair": [
+        "Codex",
+        "Cursor CLI"
+      ],
+      "test": "Terminal-Bench v2",
+      "model": "GPT-5.5 (medium)",
+      "value_a": 0.757936507936508,
+      "value_b": 0.734126984126984,
+      "ratio": 1.0324324324324328
+    },
+    {
+      "pair": [
+        "Claude Code",
+        "Cursor CLI"
+      ],
+      "test": "Terminal-Bench v2",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.714285714285714,
+      "value_b": 0.706349206349206,
+      "ratio": 1.0112359550561798
+    },
+    {
+      "pair": [
+        "Claude Code",
+        "Opencode"
+      ],
+      "test": "Terminal-Bench v2",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.714285714285714,
+      "value_b": 0.75,
+      "ratio": 0.952380952380952
+    },
+    {
+      "pair": [
+        "Cursor CLI",
+        "Opencode"
+      ],
+      "test": "Terminal-Bench v2",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.706349206349206,
+      "value_b": 0.75,
+      "ratio": 0.9417989417989413
+    },
+    {
+      "pair": [
+        "Codex",
+        "Cursor CLI"
+      ],
+      "test": "Terminal-Bench v2",
+      "model": "GPT-5.4 (medium)",
+      "value_a": 0.698412698412698,
+      "value_b": 0.646825396825397,
+      "ratio": 1.079754601226993
+    },
+    {
+      "pair": [
+        "Codex",
+        "Cursor CLI"
+      ],
+      "test": "SWE-Atlas-QnA",
+      "model": "GPT-5.5 (medium)",
+      "value_a": 0.790815126344086,
+      "value_b": 0.749773008064516,
+      "ratio": 1.0547393915733474
+    },
+    {
+      "pair": [
+        "Claude Code",
+        "Cursor CLI"
+      ],
+      "test": "SWE-Atlas-QnA",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.716856344086022,
+      "value_b": 0.784269916666666,
+      "ratio": 0.914042893718061
+    },
+    {
+      "pair": [
+        "Claude Code",
+        "Opencode"
+      ],
+      "test": "SWE-Atlas-QnA",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.716856344086022,
+      "value_b": 0.790002725806451,
+      "ratio": 0.9074099628634069
+    },
+    {
+      "pair": [
+        "Cursor CLI",
+        "Opencode"
+      ],
+      "test": "SWE-Atlas-QnA",
+      "model": "Opus 4.7 (medium)",
+      "value_a": 0.784269916666666,
+      "value_b": 0.790002725806451,
+      "ratio": 0.9927433046083064
+    },
+    {
+      "pair": [
+        "Codex",
+        "Cursor CLI"
+      ],
+      "test": "SWE-Atlas-QnA",
+      "model": "GPT-5.4 (medium)",
+      "value_a": 0.724432793010752,
+      "value_b": 0.729441217741935,
+      "ratio": 0.9931338885034668
+    }
+  ],
+  "by_pair": {
+    "Codex||Cursor CLI": [
+      1.1398709355676708,
+      1.0338443702427247,
+      1.5238095238095213,
+      1.0324324324324328,
+      1.079754601226993,
+      1.0547393915733474,
+      0.9931338885034668
+    ],
+    "Claude Code||Cursor CLI": [
+      0.944207715804377,
+      0.8691588785046754,
+      1.0112359550561798,
+      0.914042893718061
+    ],
+    "Claude Code||Opencode": [
+      0.881255286811408,
+      0.6940298507462688,
+      0.952380952380952,
+      0.9074099628634069
+    ],
+    "Cursor CLI||Opencode": [
+      0.9333277752985322,
+      0.7985074626865649,
+      0.9417989417989413,
+      0.9927433046083064
+    ]
+  }
+}

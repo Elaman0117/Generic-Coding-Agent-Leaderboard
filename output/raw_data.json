@@ -1,0 +1,544 @@
+[
+  {
+    "agent": "Claude Code",
+    "model": "Fable 5 (max) (with fallback)",
+    "displayLabel": "Claude Code - Fable 5 (max) (with fallback)",
+    "hostModelSlug": "anthropic_claude-fable-5",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.7718342762598043,
+      "DeepSWE": 0.660766961651917,
+      "Terminal-Bench v2": 0.821428571428571,
+      "SWE-Atlas-QnA": 0.833307295698925
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.8 (max)",
+    "displayLabel": "Claude Code - Opus 4.8 (max)",
+    "hostModelSlug": "anthropic_claude-opus-4-8",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.7253661427657621,
+      "DeepSWE": 0.557522123893805,
+      "Terminal-Bench v2": 0.793650793650793,
+      "SWE-Atlas-QnA": 0.824925510752688
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "DeepSeek V4 Pro (high)",
+    "displayLabel": "Claude Code - DeepSeek V4 Pro (high)",
+    "hostModelSlug": "deepseek_deepseek-v4-pro-1m",
+    "provider": "deepseek",
+    "perf": {
+      "Index": 0.4726048820976578,
+      "DeepSWE": 0.0855457227138643,
+      "Terminal-Bench v2": 0.654761904761905,
+      "SWE-Atlas-QnA": 0.677507018817204
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "GLM-5.2",
+    "displayLabel": "Claude Code - GLM-5.2",
+    "hostModelSlug": "novita_glm-5-2_fp8",
+    "provider": "novita",
+    "perf": {
+      "Index": 0.5794443281778461,
+      "DeepSWE": 0.286135693215339,
+      "Terminal-Bench v2": 0.716049382716049,
+      "SWE-Atlas-QnA": 0.73614790860215
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (max)",
+    "displayLabel": "Codex - GPT-5.6 Sol (max)",
+    "hostModelSlug": "openai_kindle-alpha-api",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.8002272295405903,
+      "DeepSWE": 0.687315634218289,
+      "Terminal-Bench v2": 0.876984126984127,
+      "SWE-Atlas-QnA": 0.836381927419355
+    }
+  },
+  {
+    "agent": "Cursor CLI",
+    "model": "Composer 2.5 Fast",
+    "displayLabel": "Cursor CLI - Composer 2.5 Fast",
+    "hostModelSlug": "cursor_composer-2-5-fast",
+    "provider": "cursor",
+    "perf": {
+      "Index": 0.5175640913138324,
+      "DeepSWE": 0.15929203539823,
+      "Terminal-Bench v2": 0.6686507936507939,
+      "SWE-Atlas-QnA": 0.724749444892473
+    }
+  },
+  {
+    "agent": "Cursor CLI",
+    "model": "GPT-5.5 (medium)",
+    "displayLabel": "Cursor CLI - GPT-5.5 (medium)",
+    "hostModelSlug": "openai_gpt-5-5-medium",
+    "provider": "cursor",
+    "perf": {
+      "Index": 0.6185271360402347,
+      "DeepSWE": 0.371681415929204,
+      "Terminal-Bench v2": 0.734126984126984,
+      "SWE-Atlas-QnA": 0.749773008064516
+    }
+  },
+  {
+    "agent": "Gemini CLI",
+    "model": "Gemini 3.1 Pro (high)",
+    "displayLabel": "Gemini CLI - Gemini 3.1 Pro (high)",
+    "hostModelSlug": "google_gemini-3-1-pro_ai-studio",
+    "provider": "gemini",
+    "perf": {
+      "Index": 0.4265493040111497,
+      "DeepSWE": 0.141592920353982,
+      "Terminal-Bench v2": 0.682539682539682,
+      "SWE-Atlas-QnA": 0.455515309139785
+    }
+  },
+  {
+    "agent": "Grok Build",
+    "model": "Grok 4.5 (high)",
+    "displayLabel": "Grok Build - Grok 4.5 (high)",
+    "hostModelSlug": "xai_grok-4-5",
+    "provider": "xai",
+    "perf": {
+      "Index": 0.7637711373905511,
+      "DeepSWE": 0.59882005899705,
+      "Terminal-Bench v2": 0.853174603174603,
+      "SWE-Atlas-QnA": 0.83931875
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Qwen3.7 Plus (thinking)",
+    "displayLabel": "Claude Code - Qwen3.7 Plus (thinking)",
+    "hostModelSlug": "alibaba_cloud_qwen3-7-plus",
+    "provider": "alibaba_cloud",
+    "perf": {
+      "Index": 0.520108484519316,
+      "DeepSWE": 0.191740412979351,
+      "Terminal-Bench v2": 0.650793650793651,
+      "SWE-Atlas-QnA": 0.717791389784946
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.6 (medium)",
+    "displayLabel": "Claude Code - Opus 4.6 (medium)",
+    "hostModelSlug": "anthropic_claude-opus-4-6",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.7106373350614436,
+      "Terminal-Bench v2": 0.702380952380952,
+      "SWE-Atlas-QnA": 0.718893717741935
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.7 (max)",
+    "displayLabel": "Claude Code - Opus 4.7 (max)",
+    "hostModelSlug": "anthropic_claude-opus-4-7",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.649784505935955,
+      "DeepSWE": 0.40117994100295,
+      "Terminal-Bench v2": 0.738095238095238,
+      "SWE-Atlas-QnA": 0.810078338709677
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.7 (medium)",
+    "displayLabel": "Claude Code - Opus 4.7 (medium)",
+    "hostModelSlug": "anthropic_claude-opus-4-7",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.5684927805191924,
+      "DeepSWE": 0.274336283185841,
+      "Terminal-Bench v2": 0.714285714285714,
+      "SWE-Atlas-QnA": 0.716856344086022
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.8 (medium)",
+    "displayLabel": "Claude Code - Opus 4.8 (medium)",
+    "hostModelSlug": "anthropic_claude-opus-4-8",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.6703462322295174,
+      "DeepSWE": 0.492625368731563,
+      "Terminal-Bench v2": 0.75,
+      "SWE-Atlas-QnA": 0.768413327956989
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Sonnet 4.6 (medium)",
+    "displayLabel": "Claude Code - Sonnet 4.6 (medium)",
+    "hostModelSlug": "anthropic_claude-sonnet-4-6",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.54225017490979,
+      "DeepSWE": 0.289085545722714,
+      "Terminal-Bench v2": 0.634920634920635,
+      "SWE-Atlas-QnA": 0.702744344086021
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "GLM-5.1",
+    "displayLabel": "Claude Code - GLM-5.1",
+    "hostModelSlug": "friendliai_glm-5-1",
+    "provider": "friendliai",
+    "perf": {
+      "Index": 0.5227348588333963,
+      "DeepSWE": 0.185840707964602,
+      "Terminal-Bench v2": 0.650793650793651,
+      "SWE-Atlas-QnA": 0.731570217741936
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Kimi K2.6",
+    "displayLabel": "Claude Code - Kimi K2.6",
+    "hostModelSlug": "moonshot_kimi-k2-6",
+    "provider": "moonshotai",
+    "perf": {
+      "Index": 0.4700177142049067,
+      "DeepSWE": 0.165191740412979,
+      "Terminal-Bench v2": 0.646825396825397,
+      "SWE-Atlas-QnA": 0.598036005376344
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.4 (medium)",
+    "displayLabel": "Codex - GPT-5.4 (medium)",
+    "hostModelSlug": "openai_gpt-5-4",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.711422745711725,
+      "Terminal-Bench v2": 0.698412698412698,
+      "SWE-Atlas-QnA": 0.724432793010752
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.5 (medium)",
+    "displayLabel": "Codex - GPT-5.5 (medium)",
+    "hostModelSlug": "openai_gpt-5-5",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.7050411052321743,
+      "DeepSWE": 0.566371681415929,
+      "Terminal-Bench v2": 0.757936507936508,
+      "SWE-Atlas-QnA": 0.790815126344086
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.5 (xhigh)",
+    "displayLabel": "Codex - GPT-5.5 (xhigh)",
+    "hostModelSlug": "openai_gpt-5-5",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.7642065796509268,
+      "DeepSWE": 0.64306784660767,
+      "Terminal-Bench v2": 0.841269841269841,
+      "SWE-Atlas-QnA": 0.808282051075269
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (high)",
+    "displayLabel": "Codex - GPT-5.6 Sol (high)",
+    "hostModelSlug": "openai_kindle-alpha-api",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.7709353469992464,
+      "DeepSWE": 0.648967551622419,
+      "Terminal-Bench v2": 0.825396825396825,
+      "SWE-Atlas-QnA": 0.838441663978495
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (low)",
+    "displayLabel": "Codex - GPT-5.6 Sol (low)",
+    "hostModelSlug": "openai_kindle-alpha-api",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.690522701295337,
+      "DeepSWE": 0.533923303834808,
+      "Terminal-Bench v2": 0.73015873015873,
+      "SWE-Atlas-QnA": 0.807486069892473
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (medium)",
+    "displayLabel": "Codex - GPT-5.6 Sol (medium)",
+    "hostModelSlug": "openai_kindle-alpha-api",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.7459643585471714,
+      "DeepSWE": 0.640117994100295,
+      "Terminal-Bench v2": 0.777777777777778,
+      "SWE-Atlas-QnA": 0.819997303763441
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (none)",
+    "displayLabel": "Codex - GPT-5.6 Sol (none)",
+    "hostModelSlug": "openai_kindle-alpha-api",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.5841442300952924,
+      "DeepSWE": 0.353982300884956,
+      "Terminal-Bench v2": 0.607142857142857,
+      "SWE-Atlas-QnA": 0.791307532258064
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (xhigh)",
+    "displayLabel": "Codex - GPT-5.6 Sol (xhigh)",
+    "hostModelSlug": "openai_kindle-alpha-api",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.7866380685179897,
+      "DeepSWE": 0.669616519174041,
+      "Terminal-Bench v2": 0.861111111111111,
+      "SWE-Atlas-QnA": 0.829186575268817
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (high)",
+    "displayLabel": "Codex - GPT-5.6 Terra (high)",
+    "hostModelSlug": "openai_nova-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.7175671912212055,
+      "DeepSWE": 0.604719764011799,
+      "Terminal-Bench v2": 0.759920634920635,
+      "SWE-Atlas-QnA": 0.788061174731182
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (low)",
+    "displayLabel": "Codex - GPT-5.6 Terra (low)",
+    "hostModelSlug": "openai_nova-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.538113224421773,
+      "DeepSWE": 0.297935103244838,
+      "Terminal-Bench v2": 0.575396825396825,
+      "SWE-Atlas-QnA": 0.741007744623656
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (max)",
+    "displayLabel": "Codex - GPT-5.6 Terra (max)",
+    "hostModelSlug": "openai_nova-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.773828138965165,
+      "DeepSWE": 0.669616519174041,
+      "Terminal-Bench v2": 0.841269841269841,
+      "SWE-Atlas-QnA": 0.810598056451613
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (medium)",
+    "displayLabel": "Codex - GPT-5.6 Terra (medium)",
+    "hostModelSlug": "openai_nova-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.641969717659995,
+      "DeepSWE": 0.457227138643068,
+      "Terminal-Bench v2": 0.694444444444444,
+      "SWE-Atlas-QnA": 0.774237569892473
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (none)",
+    "displayLabel": "Codex - GPT-5.6 Terra (none)",
+    "hostModelSlug": "openai_nova-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.4032014320038603,
+      "DeepSWE": 0.132743362831858,
+      "Terminal-Bench v2": 0.392857142857143,
+      "SWE-Atlas-QnA": 0.68400379032258
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (xhigh)",
+    "displayLabel": "Codex - GPT-5.6 Terra (xhigh)",
+    "hostModelSlug": "openai_nova-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.7319936585572154,
+      "DeepSWE": 0.584070796460177,
+      "Terminal-Bench v2": 0.805555555555555,
+      "SWE-Atlas-QnA": 0.806354623655914
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (high)",
+    "displayLabel": "Codex - GPT-5.6 Luna (high)",
+    "hostModelSlug": "openai_opal-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.6794381346030687,
+      "DeepSWE": 0.533923303834808,
+      "Terminal-Bench v2": 0.718253968253968,
+      "SWE-Atlas-QnA": 0.78613713172043
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (low)",
+    "displayLabel": "Codex - GPT-5.6 Luna (low)",
+    "hostModelSlug": "openai_opal-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.4243608863528916,
+      "DeepSWE": 0.103244837758112,
+      "Terminal-Bench v2": 0.496031746031746,
+      "SWE-Atlas-QnA": 0.673806075268817
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (max)",
+    "displayLabel": "Codex - GPT-5.6 Luna (max)",
+    "hostModelSlug": "openai_opal-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.7458830217330723,
+      "DeepSWE": 0.634218289085546,
+      "Terminal-Bench v2": 0.797619047619047,
+      "SWE-Atlas-QnA": 0.805811728494624
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (medium)",
+    "displayLabel": "Codex - GPT-5.6 Luna (medium)",
+    "hostModelSlug": "openai_opal-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.5874584190418037,
+      "DeepSWE": 0.365781710914454,
+      "Terminal-Bench v2": 0.634920634920635,
+      "SWE-Atlas-QnA": 0.761672911290322
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (none)",
+    "displayLabel": "Codex - GPT-5.6 Luna (none)",
+    "hostModelSlug": "openai_opal-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.3727598751633143,
+      "DeepSWE": 0.0648967551622419,
+      "Terminal-Bench v2": 0.373015873015873,
+      "SWE-Atlas-QnA": 0.680366997311828
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (xhigh)",
+    "displayLabel": "Codex - GPT-5.6 Luna (xhigh)",
+    "hostModelSlug": "openai_opal-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.708208380748474,
+      "DeepSWE": 0.566371681415929,
+      "Terminal-Bench v2": 0.761904761904762,
+      "SWE-Atlas-QnA": 0.796348698924731
+    }
+  },
+  {
+    "agent": "Cursor CLI",
+    "model": "Opus 4.7 (medium)",
+    "displayLabel": "Cursor CLI - Opus 4.7 (medium)",
+    "hostModelSlug": "anthropic_claude-opus-4-7",
+    "provider": "cursor",
+    "perf": {
+      "Index": 0.6020844471016523,
+      "DeepSWE": 0.315634218289085,
+      "Terminal-Bench v2": 0.706349206349206,
+      "SWE-Atlas-QnA": 0.784269916666666
+    }
+  },
+  {
+    "agent": "Cursor CLI",
+    "model": "Composer 2",
+    "displayLabel": "Cursor CLI - Composer 2",
+    "hostModelSlug": "cursor_composer-2",
+    "provider": "cursor",
+    "perf": {
+      "Index": 0.667893650025602,
+      "Terminal-Bench v2": 0.646825396825397,
+      "SWE-Atlas-QnA": 0.688961903225807
+    }
+  },
+  {
+    "agent": "Cursor CLI",
+    "model": "Composer 2.5",
+    "displayLabel": "Cursor CLI - Composer 2.5",
+    "hostModelSlug": "cursor_composer-2-5",
+    "provider": "cursor",
+    "perf": {
+      "Index": 0.5175640913138324,
+      "DeepSWE": 0.15929203539823,
+      "Terminal-Bench v2": 0.6686507936507939,
+      "SWE-Atlas-QnA": 0.724749444892473
+    }
+  },
+  {
+    "agent": "Cursor CLI",
+    "model": "GPT-5.4 (medium)",
+    "displayLabel": "Cursor CLI - GPT-5.4 (medium)",
+    "hostModelSlug": "openai_gpt-5-4",
+    "provider": "cursor",
+    "perf": {
+      "Index": 0.6881333072836661,
+      "Terminal-Bench v2": 0.646825396825397,
+      "SWE-Atlas-QnA": 0.729441217741935
+    }
+  },
+  {
+    "agent": "Opencode",
+    "model": "Opus 4.7 (medium)",
+    "displayLabel": "Opencode - Opus 4.7 (medium)",
+    "hostModelSlug": "anthropic_claude-opus-4-7",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.6450943205982174,
+      "DeepSWE": 0.395280235988201,
+      "Terminal-Bench v2": 0.75,
+      "SWE-Atlas-QnA": 0.790002725806451
+    }
+  }
+]
