@@ -1,0 +1,75 @@
+name: Coding Agent Frontend Analysis
+
+on:
+  schedule:
+    # Daily at 04:00 UTC (12:00 Beijing time)
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-analyze-plot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium --with-deps
+
+      - name: Install CJK fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fontconfig
+
+          # src/plot.py sets Matplotlib to use "Noto Sans SC" (for any CJK
+          # glyphs that might appear in labels) with "DejaVu Sans" fallback.
+          # Ubuntu's packaged Noto CJK fonts expose "Noto Sans CJK SC" instead,
+          # so we install the subset OTF that actually provides the
+          # "Noto Sans SC" family.
+          sudo mkdir -p /usr/share/fonts/truetype/chinese
+          sudo curl -fsSL \
+            -o /usr/share/fonts/truetype/chinese/NotoSansSC-Regular.ttf \
+            https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/SubsetOTF/SC/NotoSansSC-Regular.otf
+          sudo fc-cache -f
+          fc-match "Noto Sans SC" || true
+
+      - name: Scrape coding-agents performance data
+        run: python src/scrape.py
+
+      - name: Run analysis (hierarchy + filter + ratios + weighted log-LS)
+        run: python src/analyze.py
+
+      - name: Generate bar chart
+        run: python src/plot.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/ README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🔄 Update frontend analysis $(date +'%Y-%m-%d')"
+            git push
+          fi
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-results
+          path: output/
+          retention-days: 90
