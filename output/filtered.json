@@ -1,58 +1,58 @@
 {
   "Index": {
-    "GPT-5.5 (medium)": {
-      "Cursor CLI": 0.6185271360402347,
-      "Codex": 0.7050411052321743
-    },
     "Opus 4.7 (medium)": {
       "Claude Code": 0.5684927805191924,
-      "Cursor CLI": 0.6020844471016523,
-      "Opencode": 0.6450943205982174
+      "Cursor CLI": 0.602084447101653,
+      "Opencode": 0.6450943205982176
     },
     "GPT-5.4 (medium)": {
-      "Codex": 0.711422745711725,
+      "Codex": 0.7114227457117256,
       "Cursor CLI": 0.6881333072836661
+    },
+    "GPT-5.5 (medium)": {
+      "Codex": 0.7050411052321743,
+      "Cursor CLI": 0.6185271360402343
     }
   },
   "DeepSWE": {
-    "GPT-5.5 (medium)": {
-      "Cursor CLI": 0.371681415929204,
-      "Codex": 0.566371681415929
-    },
     "Opus 4.7 (medium)": {
       "Claude Code": 0.274336283185841,
       "Cursor CLI": 0.315634218289085,
       "Opencode": 0.395280235988201
+    },
+    "GPT-5.5 (medium)": {
+      "Codex": 0.566371681415929,
+      "Cursor CLI": 0.371681415929203
     }
   },
   "Terminal-Bench v2": {
-    "GPT-5.5 (medium)": {
-      "Cursor CLI": 0.734126984126984,
-      "Codex": 0.757936507936508
-    },
     "Opus 4.7 (medium)": {
       "Claude Code": 0.714285714285714,
-      "Cursor CLI": 0.706349206349206,
+      "Cursor CLI": 0.706349206349207,
       "Opencode": 0.75
     },
     "GPT-5.4 (medium)": {
       "Codex": 0.698412698412698,
       "Cursor CLI": 0.646825396825397
+    },
+    "GPT-5.5 (medium)": {
+      "Codex": 0.757936507936508,
+      "Cursor CLI": 0.734126984126984
     }
   },
   "SWE-Atlas-QnA": {
-    "GPT-5.5 (medium)": {
-      "Cursor CLI": 0.749773008064516,
-      "Codex": 0.790815126344086
-    },
     "Opus 4.7 (medium)": {
       "Claude Code": 0.716856344086022,
-      "Cursor CLI": 0.784269916666666,
-      "Opencode": 0.790002725806451
+      "Cursor CLI": 0.784269916666667,
+      "Opencode": 0.790002725806452
     },
     "GPT-5.4 (medium)": {
-      "Codex": 0.724432793010752,
+      "Codex": 0.724432793010753,
       "Cursor CLI": 0.729441217741935
+    },
+    "GPT-5.5 (medium)": {
+      "Codex": 0.790815126344086,
+      "Cursor CLI": 0.749773008064516
     }
   }
 }

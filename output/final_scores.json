@@ -14,7 +14,7 @@
       "Terminal-Bench v2": "higher_is_better",
       "SWE-Atlas-QnA": "higher_is_better"
     },
-    "total_combinations": 42,
+    "total_combinations": 43,
     "surviving_models": [
       "GPT-5.4 (medium)",
       "GPT-5.5 (medium)",
@@ -29,47 +29,47 @@
     "total_observations": 19
   },
   "scores": {
-    "Claude Code": 0.8333194726502915,
+    "Claude Code": 0.8333194726502898,
     "Codex": 1.0,
-    "Cursor CLI": 0.8908589435927051,
-    "Opencode": 0.9711436206704789
+    "Cursor CLI": 0.8908589435927042,
+    "Opencode": 0.9711436206704773
   },
   "pairs": [
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Cursor CLI",
-      "mean_ratio": 0.9346613607708233,
+      "mean_ratio": 0.9346613607708224,
       "weight": 4,
-      "fit_ratio": 0.9354112439951882,
+      "fit_ratio": 0.9354112439951873,
       "abs_err": 0.0007498832243648668,
-      "rel_err_pct": 0.08023047232277064
+      "rel_err_pct": 0.08023047232277071
     },
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.8587690132005089,
+      "mean_ratio": 0.8587690132005086,
       "weight": 4,
-      "fit_ratio": 0.858080571105401,
+      "fit_ratio": 0.8580805711054007,
       "abs_err": -0.0006884420951078773,
-      "rel_err_pct": 0.08016615463827141
+      "rel_err_pct": 0.08016615463827143
     },
     {
       "frontend_a": "Codex",
       "frontend_b": "Cursor CLI",
-      "mean_ratio": 1.1225121633365938,
+      "mean_ratio": 1.1225121633365949,
       "weight": 7,
-      "fit_ratio": 1.1225121633365938,
+      "fit_ratio": 1.1225121633365949,
       "abs_err": 0.0,
       "rel_err_pct": 0.0
     },
     {
       "frontend_a": "Cursor CLI",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.9165943710980862,
+      "mean_ratio": 0.9165943710980867,
       "weight": 4,
-      "fit_ratio": 0.917329759091302,
+      "fit_ratio": 0.9173297590913025,
       "abs_err": 0.0007353879932158192,
-      "rel_err_pct": 0.08023047232275923
+      "rel_err_pct": 0.08023047232275919
     }
   ]
 }
