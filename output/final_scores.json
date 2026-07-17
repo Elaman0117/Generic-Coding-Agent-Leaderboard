@@ -29,10 +29,10 @@
     "total_observations": 19
   },
   "scores": {
-    "Claude Code": 0.8333194726502898,
+    "Claude Code": 0.8333194726502903,
     "Codex": 1.0,
-    "Cursor CLI": 0.8908589435927042,
-    "Opencode": 0.9711436206704773
+    "Cursor CLI": 0.8908589435927048,
+    "Opencode": 0.971143620670478
   },
   "pairs": [
     {
@@ -40,36 +40,36 @@
       "frontend_b": "Cursor CLI",
       "mean_ratio": 0.9346613607708224,
       "weight": 4,
-      "fit_ratio": 0.9354112439951873,
-      "abs_err": 0.0007498832243648668,
-      "rel_err_pct": 0.08023047232277071
+      "fit_ratio": 0.9354112439951872,
+      "abs_err": 0.0007498832243647557,
+      "rel_err_pct": 0.08023047232275883
     },
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.8587690132005086,
+      "mean_ratio": 0.8587690132005085,
       "weight": 4,
-      "fit_ratio": 0.8580805711054007,
+      "fit_ratio": 0.8580805711054006,
       "abs_err": -0.0006884420951078773,
-      "rel_err_pct": 0.08016615463827143
+      "rel_err_pct": 0.08016615463827144
     },
     {
       "frontend_a": "Codex",
       "frontend_b": "Cursor CLI",
-      "mean_ratio": 1.1225121633365949,
+      "mean_ratio": 1.1225121633365942,
       "weight": 7,
-      "fit_ratio": 1.1225121633365949,
+      "fit_ratio": 1.1225121633365942,
       "abs_err": 0.0,
       "rel_err_pct": 0.0
     },
     {
       "frontend_a": "Cursor CLI",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.9165943710980867,
+      "mean_ratio": 0.9165943710980866,
       "weight": 4,
-      "fit_ratio": 0.9173297590913025,
+      "fit_ratio": 0.9173297590913024,
       "abs_err": 0.0007353879932158192,
-      "rel_err_pct": 0.08023047232275919
+      "rel_err_pct": 0.0802304723227592
     }
   ]
 }

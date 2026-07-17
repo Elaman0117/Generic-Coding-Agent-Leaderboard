@@ -1,9 +1,9 @@
 {
   "Index": {
     "Opus 4.7 (medium)": {
-      "Claude Code": 0.5684927805191924,
-      "Cursor CLI": 0.602084447101653,
-      "Opencode": 0.6450943205982176
+      "Claude Code": 0.568492780519192,
+      "Cursor CLI": 0.6020844471016527,
+      "Opencode": 0.6450943205982174
     },
     "GPT-5.4 (medium)": {
       "Codex": 0.7114227457117256,
@@ -11,7 +11,7 @@
     },
     "GPT-5.5 (medium)": {
       "Codex": 0.7050411052321743,
-      "Cursor CLI": 0.6185271360402343
+      "Cursor CLI": 0.6185271360402347
     }
   },
   "DeepSWE": {
@@ -22,13 +22,13 @@
     },
     "GPT-5.5 (medium)": {
       "Codex": 0.566371681415929,
-      "Cursor CLI": 0.371681415929203
+      "Cursor CLI": 0.371681415929204
     }
   },
   "Terminal-Bench v2": {
     "Opus 4.7 (medium)": {
       "Claude Code": 0.714285714285714,
-      "Cursor CLI": 0.706349206349207,
+      "Cursor CLI": 0.706349206349206,
       "Opencode": 0.75
     },
     "GPT-5.4 (medium)": {
@@ -42,9 +42,9 @@
   },
   "SWE-Atlas-QnA": {
     "Opus 4.7 (medium)": {
-      "Claude Code": 0.716856344086022,
+      "Claude Code": 0.716856344086021,
       "Cursor CLI": 0.784269916666667,
-      "Opencode": 0.790002725806452
+      "Opencode": 0.790002725806451
     },
     "GPT-5.4 (medium)": {
       "Codex": 0.724432793010753,

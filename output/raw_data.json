@@ -6,9 +6,9 @@
     "hostModelSlug": "anthropic_claude-fable-5",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.7718342762598043,
-      "DeepSWE": 0.660766961651917,
-      "Terminal-Bench v2": 0.821428571428571,
+      "Index": 0.7731570275825561,
+      "DeepSWE": 0.660766961651918,
+      "Terminal-Bench v2": 0.825396825396825,
       "SWE-Atlas-QnA": 0.833307295698925
     }
   },
@@ -32,9 +32,9 @@
     "hostModelSlug": "deepseek_deepseek-v4-pro-1m",
     "provider": "deepseek",
     "perf": {
-      "Index": 0.4726048820976578,
+      "Index": 0.47392763342040917,
       "DeepSWE": 0.0855457227138643,
-      "Terminal-Bench v2": 0.654761904761905,
+      "Terminal-Bench v2": 0.658730158730159,
       "SWE-Atlas-QnA": 0.677507018817204
     }
   },
@@ -45,10 +45,10 @@
     "hostModelSlug": "novita_glm-5-2_fp8",
     "provider": "novita",
     "perf": {
-      "Index": 0.5794443281778461,
+      "Index": 0.5794443281778464,
       "DeepSWE": 0.286135693215339,
       "Terminal-Bench v2": 0.716049382716049,
-      "SWE-Atlas-QnA": 0.73614790860215
+      "SWE-Atlas-QnA": 0.736147908602151
     }
   },
   {
@@ -58,10 +58,10 @@
     "hostModelSlug": "openai_kindle-alpha-api",
     "provider": "openai",
     "perf": {
-      "Index": 0.80022722954059,
+      "Index": 0.8002272295405903,
       "DeepSWE": 0.687315634218289,
       "Terminal-Bench v2": 0.876984126984127,
-      "SWE-Atlas-QnA": 0.836381927419354
+      "SWE-Atlas-QnA": 0.836381927419355
     }
   },
   {
@@ -71,9 +71,9 @@
     "hostModelSlug": "cursor_composer-2-5-fast",
     "provider": "cursor",
     "perf": {
-      "Index": 0.5175640913138324,
+      "Index": 0.518225466975208,
       "DeepSWE": 0.15929203539823,
-      "Terminal-Bench v2": 0.6686507936507939,
+      "Terminal-Bench v2": 0.6706349206349209,
       "SWE-Atlas-QnA": 0.724749444892473
     }
   },
@@ -161,10 +161,10 @@
     "hostModelSlug": "anthropic_claude-opus-4-7",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.5684927805191924,
+      "Index": 0.568492780519192,
       "DeepSWE": 0.274336283185841,
       "Terminal-Bench v2": 0.714285714285714,
-      "SWE-Atlas-QnA": 0.716856344086022
+      "SWE-Atlas-QnA": 0.716856344086021
     }
   },
   {
@@ -174,9 +174,9 @@
     "hostModelSlug": "anthropic_claude-opus-4-8",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6703462322295174,
+      "Index": 0.6716689835522688,
       "DeepSWE": 0.492625368731563,
-      "Terminal-Bench v2": 0.75,
+      "Terminal-Bench v2": 0.753968253968254,
       "SWE-Atlas-QnA": 0.768413327956989
     }
   },
@@ -200,10 +200,10 @@
     "hostModelSlug": "friendliai_glm-5-1",
     "provider": "friendliai",
     "perf": {
-      "Index": 0.522734858833396,
+      "Index": 0.5227348588333963,
       "DeepSWE": 0.185840707964602,
       "Terminal-Bench v2": 0.650793650793651,
-      "SWE-Atlas-QnA": 0.731570217741935
+      "SWE-Atlas-QnA": 0.731570217741936
     }
   },
   {
@@ -251,8 +251,8 @@
     "hostModelSlug": "openai_gpt-5-5",
     "provider": "openai",
     "perf": {
-      "Index": 0.7642065796509268,
-      "DeepSWE": 0.64306784660767,
+      "Index": 0.7642065796509264,
+      "DeepSWE": 0.643067846607669,
       "Terminal-Bench v2": 0.841269841269841,
       "SWE-Atlas-QnA": 0.808282051075269
     }
@@ -303,10 +303,10 @@
     "hostModelSlug": "openai_kindle-alpha-api",
     "provider": "openai",
     "perf": {
-      "Index": 0.5841442300952927,
+      "Index": 0.5841442300952924,
       "DeepSWE": 0.353982300884956,
       "Terminal-Bench v2": 0.607142857142857,
-      "SWE-Atlas-QnA": 0.791307532258065
+      "SWE-Atlas-QnA": 0.791307532258064
     }
   },
   {
@@ -342,10 +342,10 @@
     "hostModelSlug": "openai_nova-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.538113224421773,
+      "Index": 0.5381132244217727,
       "DeepSWE": 0.297935103244838,
       "Terminal-Bench v2": 0.575396825396825,
-      "SWE-Atlas-QnA": 0.741007744623656
+      "SWE-Atlas-QnA": 0.741007744623655
     }
   },
   {
@@ -433,9 +433,9 @@
     "hostModelSlug": "openai_opal-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.7458830217330726,
+      "Index": 0.7458830217330723,
       "DeepSWE": 0.634218289085546,
-      "Terminal-Bench v2": 0.797619047619048,
+      "Terminal-Bench v2": 0.797619047619047,
       "SWE-Atlas-QnA": 0.805811728494624
     }
   },
@@ -446,10 +446,10 @@
     "hostModelSlug": "openai_opal-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.5874584190418037,
+      "Index": 0.5874584190418041,
       "DeepSWE": 0.365781710914454,
       "Terminal-Bench v2": 0.634920634920635,
-      "SWE-Atlas-QnA": 0.761672911290322
+      "SWE-Atlas-QnA": 0.761672911290323
     }
   },
   {
@@ -485,9 +485,9 @@
     "hostModelSlug": "anthropic_claude-opus-4-7",
     "provider": "cursor",
     "perf": {
-      "Index": 0.602084447101653,
+      "Index": 0.6020844471016527,
       "DeepSWE": 0.315634218289085,
-      "Terminal-Bench v2": 0.706349206349207,
+      "Terminal-Bench v2": 0.706349206349206,
       "SWE-Atlas-QnA": 0.784269916666667
     }
   },
@@ -510,9 +510,9 @@
     "hostModelSlug": "cursor_composer-2-5",
     "provider": "cursor",
     "perf": {
-      "Index": 0.5175640913138324,
+      "Index": 0.518225466975208,
       "DeepSWE": 0.15929203539823,
-      "Terminal-Bench v2": 0.6686507936507939,
+      "Terminal-Bench v2": 0.6706349206349209,
       "SWE-Atlas-QnA": 0.724749444892473
     }
   },
@@ -535,8 +535,8 @@
     "hostModelSlug": "openai_gpt-5-5-medium",
     "provider": "cursor",
     "perf": {
-      "Index": 0.6185271360402343,
-      "DeepSWE": 0.371681415929203,
+      "Index": 0.6185271360402347,
+      "DeepSWE": 0.371681415929204,
       "Terminal-Bench v2": 0.734126984126984,
       "SWE-Atlas-QnA": 0.749773008064516
     }
@@ -548,10 +548,10 @@
     "hostModelSlug": "anthropic_claude-opus-4-7",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6450943205982176,
+      "Index": 0.6450943205982174,
       "DeepSWE": 0.395280235988201,
       "Terminal-Bench v2": 0.75,
-      "SWE-Atlas-QnA": 0.790002725806452
+      "SWE-Atlas-QnA": 0.790002725806451
     }
   }
 ]
