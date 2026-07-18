@@ -14,7 +14,7 @@
       "Terminal-Bench v2": "higher_is_better",
       "SWE-Atlas-QnA": "higher_is_better"
     },
-    "total_combinations": 43,
+    "total_combinations": 44,
     "surviving_models": [
       "GPT-5.4 (medium)",
       "GPT-5.5 (medium)",
@@ -29,47 +29,47 @@
     "total_observations": 19
   },
   "scores": {
-    "Claude Code": 0.8333194726502903,
+    "Claude Code": 0.7784835571137682,
     "Codex": 1.0,
-    "Cursor CLI": 0.8908589435927048,
-    "Opencode": 0.971143620670478
+    "Cursor CLI": 0.9099845668431399,
+    "Opencode": 0.999065864741035
   },
   "pairs": [
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Cursor CLI",
-      "mean_ratio": 0.9346613607708224,
+      "mean_ratio": 0.8569767257839541,
       "weight": 4,
-      "fit_ratio": 0.9354112439951872,
-      "abs_err": 0.0007498832243647557,
-      "rel_err_pct": 0.08023047232275883
+      "fit_ratio": 0.8554909450985893,
+      "abs_err": -0.001485780685364868,
+      "rel_err_pct": 0.17337468342628443
     },
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.8587690132005085,
+      "mean_ratio": 0.7778604906219424,
       "weight": 4,
-      "fit_ratio": 0.8580805711054006,
-      "abs_err": -0.0006884420951078773,
-      "rel_err_pct": 0.08016615463827144
+      "fit_ratio": 0.7792114459996655,
+      "abs_err": 0.0013509553777231176,
+      "rel_err_pct": 0.1736757932830544
     },
     {
       "frontend_a": "Codex",
       "frontend_b": "Cursor CLI",
-      "mean_ratio": 1.1225121633365942,
+      "mean_ratio": 1.0989197360446847,
       "weight": 7,
-      "fit_ratio": 1.1225121633365942,
+      "fit_ratio": 1.0989197360446847,
       "abs_err": 0.0,
       "rel_err_pct": 0.0
     },
     {
       "frontend_a": "Cursor CLI",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.9165943710980866,
+      "mean_ratio": 0.9124173109393966,
       "weight": 4,
-      "fit_ratio": 0.9173297590913024,
-      "abs_err": 0.0007353879932158192,
-      "rel_err_pct": 0.0802304723227592
+      "fit_ratio": 0.910835410315029,
+      "abs_err": -0.0015819006243675826,
+      "rel_err_pct": 0.17337468342626103
     }
   ]
 }
