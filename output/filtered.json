@@ -2,7 +2,7 @@
   "Index": {
     "GPT-5.5 (medium)": {
       "Codex": 0.5435866007518876,
-      "Cursor CLI": 0.460896706828765
+      "Cursor CLI": 0.4608967068287653
     },
     "GPT-5.4 (medium)": {
       "Codex": 0.39051032599419666,
@@ -10,14 +10,14 @@
     },
     "Opus 4.7 (medium)": {
       "Claude Code": 0.4048094830281527,
-      "Cursor CLI": 0.45356436735254935,
+      "Cursor CLI": 0.453564367352549,
       "Opencode": 0.4995702851826177
     }
   },
   "DeepSWE": {
     "GPT-5.5 (medium)": {
       "Codex": 0.566371681415929,
-      "Cursor CLI": 0.371681415929203
+      "Cursor CLI": 0.371681415929204
     },
     "GPT-5.4 (medium)": {
       "Codex": 0.25,
@@ -40,7 +40,7 @@
     },
     "Opus 4.7 (medium)": {
       "Claude Code": 0.714285714285714,
-      "Cursor CLI": 0.706349206349207,
+      "Cursor CLI": 0.706349206349206,
       "Opencode": 0.753968253968254
     }
   },

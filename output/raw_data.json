@@ -32,9 +32,9 @@
     "hostModelSlug": "anthropic_claude-opus-4-8",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6054088936618194,
+      "Index": 0.6054088936618197,
       "DeepSWE": 0.557522123893805,
-      "Terminal-Bench v2": 0.793650793650793,
+      "Terminal-Bench v2": 0.793650793650794,
       "SWE-Atlas-QnA": 0.46505376344086
     }
   },
@@ -45,8 +45,8 @@
     "hostModelSlug": "anthropic_claude-fable-5",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.658470366292233,
-      "DeepSWE": 0.660766961651917,
+      "Index": 0.6584703662922334,
+      "DeepSWE": 0.660766961651918,
       "Terminal-Bench v2": 0.825396825396825,
       "SWE-Atlas-QnA": 0.489247311827957
     }
@@ -130,19 +130,6 @@
     }
   },
   {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (medium)",
-    "displayLabel": "Codex - GPT-5.6 Sol (medium)",
-    "hostModelSlug": "openai_kindle-alpha-api",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.606144468762225,
-      "DeepSWE": 0.640117994100295,
-      "Terminal-Bench v2": 0.777777777777778,
-      "SWE-Atlas-QnA": 0.400537634408602
-    }
-  },
-  {
     "agent": "Claude Code",
     "model": "Qwen3.7 Plus (thinking)",
     "displayLabel": "Claude Code - Qwen3.7 Plus (thinking)",
@@ -208,16 +195,16 @@
     }
   },
   {
-    "agent": "Claude Code",
-    "model": "Kimi K2.6",
-    "displayLabel": "Claude Code - Kimi K2.6",
-    "hostModelSlug": "moonshot_kimi-k2-6",
-    "provider": "moonshotai",
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (low)",
+    "displayLabel": "Codex - GPT-5.6 Sol (low)",
+    "hostModelSlug": "openai_kindle-alpha-api",
+    "provider": "openai",
     "perf": {
-      "Index": 0.326185265237506,
-      "DeepSWE": 0.165191740412979,
-      "Terminal-Bench v2": 0.654761904761905,
-      "SWE-Atlas-QnA": 0.158602150537634
+      "Index": 0.536056018499638,
+      "DeepSWE": 0.533923303834808,
+      "Terminal-Bench v2": 0.73015873015873,
+      "SWE-Atlas-QnA": 0.344086021505376
     }
   },
   {
@@ -298,16 +285,29 @@
     }
   },
   {
+    "agent": "Claude Code",
+    "model": "Kimi K2.6",
+    "displayLabel": "Claude Code - Kimi K2.6",
+    "hostModelSlug": "moonshot_kimi-k2-6",
+    "provider": "moonshotai",
+    "perf": {
+      "Index": 0.326185265237506,
+      "DeepSWE": 0.165191740412979,
+      "Terminal-Bench v2": 0.654761904761905,
+      "SWE-Atlas-QnA": 0.158602150537634
+    }
+  },
+  {
     "agent": "Codex",
-    "model": "GPT-5.6 Sol (low)",
-    "displayLabel": "Codex - GPT-5.6 Sol (low)",
+    "model": "GPT-5.6 Sol (medium)",
+    "displayLabel": "Codex - GPT-5.6 Sol (medium)",
     "hostModelSlug": "openai_kindle-alpha-api",
     "provider": "openai",
     "perf": {
-      "Index": 0.536056018499638,
-      "DeepSWE": 0.533923303834808,
-      "Terminal-Bench v2": 0.73015873015873,
-      "SWE-Atlas-QnA": 0.344086021505376
+      "Index": 0.606144468762225,
+      "DeepSWE": 0.640117994100295,
+      "Terminal-Bench v2": 0.777777777777778,
+      "SWE-Atlas-QnA": 0.400537634408602
     }
   },
   {
@@ -499,9 +499,9 @@
     "hostModelSlug": "anthropic_claude-opus-4-7",
     "provider": "cursor",
     "perf": {
-      "Index": 0.45356436735254935,
+      "Index": 0.453564367352549,
       "DeepSWE": 0.315634218289086,
-      "Terminal-Bench v2": 0.706349206349207,
+      "Terminal-Bench v2": 0.706349206349206,
       "SWE-Atlas-QnA": 0.338709677419355
     }
   },
@@ -551,8 +551,8 @@
     "hostModelSlug": "openai_gpt-5-5-medium",
     "provider": "cursor",
     "perf": {
-      "Index": 0.460896706828765,
-      "DeepSWE": 0.371681415929203,
+      "Index": 0.4608967068287653,
+      "DeepSWE": 0.371681415929204,
       "Terminal-Bench v2": 0.734126984126984,
       "SWE-Atlas-QnA": 0.276881720430108
     }
