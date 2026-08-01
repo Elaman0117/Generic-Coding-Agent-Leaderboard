@@ -2,28 +2,6 @@
   "observations": [
     {
       "pair": [
-        "Codex",
-        "Cursor CLI"
-      ],
-      "test": "Index",
-      "model": "GPT-5.5 (medium)",
-      "value_a": 0.5435866007518876,
-      "value_b": 0.460896706828765,
-      "ratio": 1.179410902048046
-    },
-    {
-      "pair": [
-        "Codex",
-        "Cursor CLI"
-      ],
-      "test": "Index",
-      "model": "GPT-5.4 (medium)",
-      "value_a": 0.39051032599419666,
-      "value_b": 0.3678955453149003,
-      "ratio": 1.0614706564602168
-    },
-    {
-      "pair": [
         "Claude Code",
         "Cursor CLI"
       ],
@@ -60,22 +38,22 @@
         "Codex",
         "Cursor CLI"
       ],
-      "test": "DeepSWE",
+      "test": "Index",
       "model": "GPT-5.5 (medium)",
-      "value_a": 0.566371681415929,
-      "value_b": 0.371681415929203,
-      "ratio": 1.5238095238095253
+      "value_a": 0.5435866007518876,
+      "value_b": 0.4608967068287653,
+      "ratio": 1.1794109020480452
     },
     {
       "pair": [
         "Codex",
         "Cursor CLI"
       ],
-      "test": "DeepSWE",
+      "test": "Index",
       "model": "GPT-5.4 (medium)",
-      "value_a": 0.25,
-      "value_b": 0.166666666666667,
-      "ratio": 1.4999999999999971
+      "value_a": 0.39051032599419666,
+      "value_b": 0.3678955453149003,
+      "ratio": 1.0614706564602168
     },
     {
       "pair": [
@@ -115,22 +93,22 @@
         "Codex",
         "Cursor CLI"
       ],
-      "test": "Terminal-Bench v2",
+      "test": "DeepSWE",
       "model": "GPT-5.5 (medium)",
-      "value_a": 0.757936507936508,
-      "value_b": 0.734126984126984,
-      "ratio": 1.0324324324324328
+      "value_a": 0.566371681415929,
+      "value_b": 0.371681415929204,
+      "ratio": 1.5238095238095213
     },
     {
       "pair": [
         "Codex",
         "Cursor CLI"
       ],
-      "test": "Terminal-Bench v2",
+      "test": "DeepSWE",
       "model": "GPT-5.4 (medium)",
-      "value_a": 0.698412698412698,
-      "value_b": 0.654761904761905,
-      "ratio": 1.0666666666666658
+      "value_a": 0.25,
+      "value_b": 0.166666666666667,
+      "ratio": 1.4999999999999971
     },
     {
       "pair": [
@@ -170,22 +148,22 @@
         "Codex",
         "Cursor CLI"
       ],
-      "test": "SWE-Atlas-QnA",
+      "test": "Terminal-Bench v2",
       "model": "GPT-5.5 (medium)",
-      "value_a": 0.306451612903226,
-      "value_b": 0.276881720430108,
-      "ratio": 1.106796116504853
+      "value_a": 0.757936507936508,
+      "value_b": 0.734126984126984,
+      "ratio": 1.0324324324324328
     },
     {
       "pair": [
         "Codex",
         "Cursor CLI"
       ],
-      "test": "SWE-Atlas-QnA",
+      "test": "Terminal-Bench v2",
       "model": "GPT-5.4 (medium)",
-      "value_a": 0.223118279569892,
-      "value_b": 0.282258064516129,
-      "ratio": 0.7904761904761889
+      "value_a": 0.698412698412698,
+      "value_b": 0.654761904761905,
+      "ratio": 1.0666666666666658
     },
     {
       "pair": [
@@ -219,19 +197,31 @@
       "value_a": 0.338709677419355,
       "value_b": 0.349462365591398,
       "ratio": 0.9692307692307692
+    },
+    {
+      "pair": [
+        "Codex",
+        "Cursor CLI"
+      ],
+      "test": "SWE-Atlas-QnA",
+      "model": "GPT-5.5 (medium)",
+      "value_a": 0.306451612903226,
+      "value_b": 0.276881720430108,
+      "ratio": 1.106796116504853
+    },
+    {
+      "pair": [
+        "Codex",
+        "Cursor CLI"
+      ],
+      "test": "SWE-Atlas-QnA",
+      "model": "GPT-5.4 (medium)",
+      "value_a": 0.223118279569892,
+      "value_b": 0.282258064516129,
+      "ratio": 0.7904761904761889
     }
   ],
   "by_pair": {
-    "Codex||Cursor CLI": [
-      1.179410902048046,
-      1.0614706564602168,
-      1.5238095238095253,
-      1.4999999999999971,
-      1.0324324324324328,
-      1.0666666666666658,
-      1.106796116504853,
-      0.7904761904761889
-    ],
     "Claude Code||Cursor CLI": [
       0.8925072429984352,
       0.8691588785046754,
@@ -249,6 +239,16 @@
       0.7985074626865649,
       0.9368421052631574,
       0.9692307692307692
+    ],
+    "Codex||Cursor CLI": [
+      1.1794109020480452,
+      1.0614706564602168,
+      1.5238095238095213,
+      1.4999999999999971,
+      1.0324324324324328,
+      1.0666666666666658,
+      1.106796116504853,
+      0.7904761904761889
     ]
   }
 }
