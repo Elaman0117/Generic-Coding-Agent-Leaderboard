@@ -1,10 +1,10 @@
 {
   "Index": {
-    "GPT-5.6 Sol (max)": {
-      "Codex": 0.6656984867090491
-    },
     "GLM-5.2": {
       "Claude Code": 0.4317779252895107
+    },
+    "GPT-5.6 Sol (max)": {
+      "Codex": 0.6656984867090491
     },
     "DeepSeek V4 Pro (high)": {
       "Claude Code": 0.31440020420893977
@@ -13,13 +13,13 @@
       "Claude Code": 0.6674377366641141
     },
     "Fable 5 (max) (with fallback)": {
-      "Claude Code": 0.6584703662922334
+      "Claude Code": 0.658470366292233
     },
     "Composer 2.5 Fast": {
       "Cursor CLI": 0.3819077223302175
     },
     "Gemini 3.1 Pro (high)": {
-      "Gemini CLI": 0.3033847027566694
+      "Gemini CLI": 0.30338470275666973
     },
     "Grok 4.5 (high)": {
       "Grok Build": 0.6443924859568593
@@ -29,6 +29,39 @@
     },
     "Muse Spark 1.1 (xhigh)": {
       "Opencode": 0.5354216416163317
+    },
+    "GPT-5.6 Luna (max)": {
+      "Codex": 0.5865981086506353
+    },
+    "GPT-5.6 Luna (low)": {
+      "Codex": 0.2508341300804903
+    },
+    "GPT-5.6 Luna (high)": {
+      "Codex": 0.514166617577979
+    },
+    "GPT-5.6 Terra (xhigh)": {
+      "Codex": 0.570735665725674
+    },
+    "GPT-5.6 Terra (none)": {
+      "Codex": 0.23702812555224767
+    },
+    "GPT-5.6 Terra (medium)": {
+      "Codex": 0.4779765492012141
+    },
+    "GPT-5.6 Terra (max)": {
+      "Codex": 0.6228044140547706
+    },
+    "GPT-5.6 Terra (low)": {
+      "Codex": 0.3672755174325257
+    },
+    "Qwen3.7 Plus (thinking)": {
+      "Claude Code": 0.359697734519316
+    },
+    "GPT-5.6 Terra (high)": {
+      "Codex": 0.5579267279595571
+    },
+    "GPT-5.6 Sol (xhigh)": {
+      "Codex": 0.6509235470126135
     },
     "GPT-5.6 Sol (none)": {
       "Codex": 0.4341743358300597
@@ -43,11 +76,11 @@
       "Codex": 0.6410963694006797
     },
     "GPT-5.5 (xhigh)": {
-      "Codex": 0.614850913880317
+      "Codex": 0.6148509138803173
     },
     "GPT-5.5 (medium)": {
       "Codex": 0.5435866007518876,
-      "Cursor CLI": 0.460896706828765
+      "Cursor CLI": 0.4608967068287653
     },
     "GPT-5.4 (medium)": {
       "Codex": 0.39051032599419666,
@@ -66,7 +99,7 @@
       "Claude Code": 0.5669800035343857
     },
     "Opus 4.8 (xhigh)": {
-      "Claude Code": 0.5847285848713201
+      "Claude Code": 0.5847285848713197
     },
     "Opus 4.8 (medium)": {
       "Claude Code": 0.5356028921544193
@@ -92,46 +125,13 @@
       "Claude Code": 0.655251281214741
     },
     "Opus 5 (medium)": {
-      "Claude Code": 0.619193752293952
+      "Claude Code": 0.6191937522939523
     },
     "Opus 5 (high)": {
       "Claude Code": 0.633730800659148
     },
     "Opus 5 (low)": {
       "Claude Code": 0.5679527147554554
-    },
-    "GPT-5.6 Sol (xhigh)": {
-      "Codex": 0.6509235470126135
-    },
-    "Qwen3.7 Plus (thinking)": {
-      "Claude Code": 0.359697734519316
-    },
-    "GPT-5.6 Terra (high)": {
-      "Codex": 0.5579267279595571
-    },
-    "GPT-5.6 Terra (low)": {
-      "Codex": 0.3672755174325257
-    },
-    "GPT-5.6 Terra (max)": {
-      "Codex": 0.6228044140547706
-    },
-    "GPT-5.6 Terra (medium)": {
-      "Codex": 0.47797654920121374
-    },
-    "GPT-5.6 Terra (none)": {
-      "Codex": 0.23702812555224767
-    },
-    "GPT-5.6 Terra (xhigh)": {
-      "Codex": 0.570735665725674
-    },
-    "GPT-5.6 Luna (high)": {
-      "Codex": 0.514166617577979
-    },
-    "GPT-5.6 Luna (low)": {
-      "Codex": 0.2508341300804903
-    },
-    "GPT-5.6 Luna (max)": {
-      "Codex": 0.5865981086506351
     },
     "GPT-5.6 Luna (medium)": {
       "Codex": 0.4240692407263916
@@ -150,11 +150,11 @@
     }
   },
   "DeepSWE": {
-    "GPT-5.6 Sol (max)": {
-      "Codex": 0.687315634218289
-    },
     "GLM-5.2": {
       "Claude Code": 0.286135693215339
+    },
+    "GPT-5.6 Sol (max)": {
+      "Codex": 0.687315634218289
     },
     "DeepSeek V4 Pro (high)": {
       "Claude Code": 0.0855457227138643
@@ -163,7 +163,7 @@
       "Claude Code": 0.604719764011799
     },
     "Fable 5 (max) (with fallback)": {
-      "Claude Code": 0.660766961651918
+      "Claude Code": 0.660766961651917
     },
     "Composer 2.5 Fast": {
       "Cursor CLI": 0.15929203539823
@@ -180,6 +180,39 @@
     "Muse Spark 1.1 (xhigh)": {
       "Opencode": 0.542772861356932
     },
+    "GPT-5.6 Luna (max)": {
+      "Codex": 0.634218289085546
+    },
+    "GPT-5.6 Luna (low)": {
+      "Codex": 0.103244837758112
+    },
+    "GPT-5.6 Luna (high)": {
+      "Codex": 0.533923303834808
+    },
+    "GPT-5.6 Terra (xhigh)": {
+      "Codex": 0.584070796460177
+    },
+    "GPT-5.6 Terra (none)": {
+      "Codex": 0.132743362831858
+    },
+    "GPT-5.6 Terra (medium)": {
+      "Codex": 0.457227138643068
+    },
+    "GPT-5.6 Terra (max)": {
+      "Codex": 0.669616519174041
+    },
+    "GPT-5.6 Terra (low)": {
+      "Codex": 0.297935103244838
+    },
+    "Qwen3.7 Plus (thinking)": {
+      "Claude Code": 0.191740412979351
+    },
+    "GPT-5.6 Terra (high)": {
+      "Codex": 0.604719764011799
+    },
+    "GPT-5.6 Sol (xhigh)": {
+      "Codex": 0.669616519174041
+    },
     "GPT-5.6 Sol (none)": {
       "Codex": 0.353982300884956
     },
@@ -193,11 +226,11 @@
       "Codex": 0.648967551622419
     },
     "GPT-5.5 (xhigh)": {
-      "Codex": 0.643067846607669
+      "Codex": 0.64306784660767
     },
     "GPT-5.5 (medium)": {
       "Codex": 0.566371681415929,
-      "Cursor CLI": 0.371681415929203
+      "Cursor CLI": 0.371681415929204
     },
     "GPT-5.4 (medium)": {
       "Codex": 0.25,
@@ -239,46 +272,13 @@
       "Claude Code": 0.631268436578171
     },
     "Opus 5 (medium)": {
-      "Claude Code": 0.628318584070796
+      "Claude Code": 0.628318584070797
     },
     "Opus 5 (high)": {
       "Claude Code": 0.607669616519174
     },
     "Opus 5 (low)": {
       "Claude Code": 0.569321533923304
-    },
-    "GPT-5.6 Sol (xhigh)": {
-      "Codex": 0.669616519174041
-    },
-    "Qwen3.7 Plus (thinking)": {
-      "Claude Code": 0.191740412979351
-    },
-    "GPT-5.6 Terra (high)": {
-      "Codex": 0.604719764011799
-    },
-    "GPT-5.6 Terra (low)": {
-      "Codex": 0.297935103244838
-    },
-    "GPT-5.6 Terra (max)": {
-      "Codex": 0.669616519174041
-    },
-    "GPT-5.6 Terra (medium)": {
-      "Codex": 0.457227138643068
-    },
-    "GPT-5.6 Terra (none)": {
-      "Codex": 0.132743362831858
-    },
-    "GPT-5.6 Terra (xhigh)": {
-      "Codex": 0.584070796460177
-    },
-    "GPT-5.6 Luna (high)": {
-      "Codex": 0.533923303834808
-    },
-    "GPT-5.6 Luna (low)": {
-      "Codex": 0.103244837758112
-    },
-    "GPT-5.6 Luna (max)": {
-      "Codex": 0.634218289085546
     },
     "GPT-5.6 Luna (medium)": {
       "Codex": 0.365781710914454
@@ -294,11 +294,11 @@
     }
   },
   "Terminal-Bench v2": {
-    "GPT-5.6 Sol (max)": {
-      "Codex": 0.876984126984127
-    },
     "GLM-5.2": {
       "Claude Code": 0.718875502008032
+    },
+    "GPT-5.6 Sol (max)": {
+      "Codex": 0.876984126984127
     },
     "DeepSeek V4 Pro (high)": {
       "Claude Code": 0.658730158730159
@@ -313,7 +313,7 @@
       "Cursor CLI": 0.6746031746031751
     },
     "Gemini 3.1 Pro (high)": {
-      "Gemini CLI": 0.682539682539682
+      "Gemini CLI": 0.682539682539683
     },
     "Grok 4.5 (high)": {
       "Grok Build": 0.853174603174603
@@ -323,6 +323,39 @@
     },
     "Muse Spark 1.1 (xhigh)": {
       "Opencode": 0.73015873015873
+    },
+    "GPT-5.6 Luna (max)": {
+      "Codex": 0.797619047619048
+    },
+    "GPT-5.6 Luna (low)": {
+      "Codex": 0.496031746031746
+    },
+    "GPT-5.6 Luna (high)": {
+      "Codex": 0.718253968253968
+    },
+    "GPT-5.6 Terra (xhigh)": {
+      "Codex": 0.805555555555555
+    },
+    "GPT-5.6 Terra (none)": {
+      "Codex": 0.392857142857143
+    },
+    "GPT-5.6 Terra (medium)": {
+      "Codex": 0.694444444444445
+    },
+    "GPT-5.6 Terra (max)": {
+      "Codex": 0.841269841269841
+    },
+    "GPT-5.6 Terra (low)": {
+      "Codex": 0.575396825396825
+    },
+    "Qwen3.7 Plus (thinking)": {
+      "Claude Code": 0.650793650793651
+    },
+    "GPT-5.6 Terra (high)": {
+      "Codex": 0.759920634920635
+    },
+    "GPT-5.6 Sol (xhigh)": {
+      "Codex": 0.861111111111111
     },
     "GPT-5.6 Sol (none)": {
       "Codex": 0.607142857142857
@@ -360,7 +393,7 @@
       "Claude Code": 0.797619047619048
     },
     "Opus 4.8 (xhigh)": {
-      "Claude Code": 0.813492063492064
+      "Claude Code": 0.813492063492063
     },
     "Opus 4.8 (medium)": {
       "Claude Code": 0.753968253968254
@@ -394,39 +427,6 @@
     "Opus 5 (low)": {
       "Claude Code": 0.742063492063492
     },
-    "GPT-5.6 Sol (xhigh)": {
-      "Codex": 0.861111111111111
-    },
-    "Qwen3.7 Plus (thinking)": {
-      "Claude Code": 0.650793650793651
-    },
-    "GPT-5.6 Terra (high)": {
-      "Codex": 0.759920634920635
-    },
-    "GPT-5.6 Terra (low)": {
-      "Codex": 0.575396825396825
-    },
-    "GPT-5.6 Terra (max)": {
-      "Codex": 0.841269841269841
-    },
-    "GPT-5.6 Terra (medium)": {
-      "Codex": 0.694444444444444
-    },
-    "GPT-5.6 Terra (none)": {
-      "Codex": 0.392857142857143
-    },
-    "GPT-5.6 Terra (xhigh)": {
-      "Codex": 0.805555555555555
-    },
-    "GPT-5.6 Luna (high)": {
-      "Codex": 0.718253968253968
-    },
-    "GPT-5.6 Luna (low)": {
-      "Codex": 0.496031746031746
-    },
-    "GPT-5.6 Luna (max)": {
-      "Codex": 0.797619047619047
-    },
     "GPT-5.6 Luna (medium)": {
       "Codex": 0.634920634920635
     },
@@ -444,11 +444,11 @@
     }
   },
   "SWE-Atlas-QnA": {
-    "GPT-5.6 Sol (max)": {
-      "Codex": 0.432795698924731
-    },
     "GLM-5.2": {
       "Claude Code": 0.290322580645161
+    },
+    "GPT-5.6 Sol (max)": {
+      "Codex": 0.432795698924731
     },
     "DeepSeek V4 Pro (high)": {
       "Claude Code": 0.198924731182796
@@ -473,6 +473,39 @@
     },
     "Muse Spark 1.1 (xhigh)": {
       "Opencode": 0.333333333333333
+    },
+    "GPT-5.6 Luna (max)": {
+      "Codex": 0.327956989247312
+    },
+    "GPT-5.6 Luna (low)": {
+      "Codex": 0.153225806451613
+    },
+    "GPT-5.6 Luna (high)": {
+      "Codex": 0.290322580645161
+    },
+    "GPT-5.6 Terra (xhigh)": {
+      "Codex": 0.32258064516129
+    },
+    "GPT-5.6 Terra (none)": {
+      "Codex": 0.185483870967742
+    },
+    "GPT-5.6 Terra (medium)": {
+      "Codex": 0.282258064516129
+    },
+    "GPT-5.6 Terra (max)": {
+      "Codex": 0.35752688172043
+    },
+    "GPT-5.6 Terra (low)": {
+      "Codex": 0.228494623655914
+    },
+    "Qwen3.7 Plus (thinking)": {
+      "Claude Code": 0.236559139784946
+    },
+    "GPT-5.6 Terra (high)": {
+      "Codex": 0.309139784946237
+    },
+    "GPT-5.6 Sol (xhigh)": {
+      "Codex": 0.422043010752688
     },
     "GPT-5.6 Sol (none)": {
       "Codex": 0.341397849462366
@@ -543,39 +576,6 @@
     },
     "Opus 5 (low)": {
       "Claude Code": 0.39247311827957
-    },
-    "GPT-5.6 Sol (xhigh)": {
-      "Codex": 0.422043010752688
-    },
-    "Qwen3.7 Plus (thinking)": {
-      "Claude Code": 0.236559139784946
-    },
-    "GPT-5.6 Terra (high)": {
-      "Codex": 0.309139784946237
-    },
-    "GPT-5.6 Terra (low)": {
-      "Codex": 0.228494623655914
-    },
-    "GPT-5.6 Terra (max)": {
-      "Codex": 0.35752688172043
-    },
-    "GPT-5.6 Terra (medium)": {
-      "Codex": 0.282258064516129
-    },
-    "GPT-5.6 Terra (none)": {
-      "Codex": 0.185483870967742
-    },
-    "GPT-5.6 Terra (xhigh)": {
-      "Codex": 0.32258064516129
-    },
-    "GPT-5.6 Luna (high)": {
-      "Codex": 0.290322580645161
-    },
-    "GPT-5.6 Luna (low)": {
-      "Codex": 0.153225806451613
-    },
-    "GPT-5.6 Luna (max)": {
-      "Codex": 0.327956989247312
     },
     "GPT-5.6 Luna (medium)": {
       "Codex": 0.271505376344086

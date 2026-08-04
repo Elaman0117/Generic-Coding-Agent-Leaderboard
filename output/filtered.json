@@ -2,7 +2,7 @@
   "Index": {
     "GPT-5.5 (medium)": {
       "Codex": 0.5435866007518876,
-      "Cursor CLI": 0.460896706828765
+      "Cursor CLI": 0.4608967068287653
     },
     "GPT-5.4 (medium)": {
       "Codex": 0.39051032599419666,
@@ -17,7 +17,7 @@
   "DeepSWE": {
     "GPT-5.5 (medium)": {
       "Codex": 0.566371681415929,
-      "Cursor CLI": 0.371681415929203
+      "Cursor CLI": 0.371681415929204
     },
     "GPT-5.4 (medium)": {
       "Codex": 0.25,
