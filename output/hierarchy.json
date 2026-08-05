@@ -1,10 +1,10 @@
 {
   "Index": {
-    "GLM-5.2": {
-      "Claude Code": 0.4317779252895107
-    },
     "GPT-5.6 Sol (max)": {
       "Codex": 0.6656984867090491
+    },
+    "GLM-5.2": {
+      "Claude Code": 0.4317779252895107
     },
     "DeepSeek V4 Pro (high)": {
       "Claude Code": 0.31440020420893977
@@ -16,7 +16,7 @@
       "Claude Code": 0.658470366292233
     },
     "Composer 2.5 Fast": {
-      "Cursor CLI": 0.3819077223302175
+      "Cursor CLI": 0.3819077223302172
     },
     "Gemini 3.1 Pro (high)": {
       "Gemini CLI": 0.30338470275666973
@@ -30,9 +30,6 @@
     "Muse Spark 1.1 (xhigh)": {
       "Opencode": 0.5354216416163317
     },
-    "GPT-5.6 Luna (max)": {
-      "Codex": 0.5865981086506353
-    },
     "GPT-5.6 Luna (low)": {
       "Codex": 0.2508341300804903
     },
@@ -40,31 +37,22 @@
       "Codex": 0.514166617577979
     },
     "GPT-5.6 Terra (xhigh)": {
-      "Codex": 0.570735665725674
-    },
-    "GPT-5.6 Terra (none)": {
-      "Codex": 0.23702812555224767
+      "Codex": 0.5707356657256744
     },
     "GPT-5.6 Terra (medium)": {
-      "Codex": 0.4779765492012141
+      "Codex": 0.47797654920121374
     },
     "GPT-5.6 Terra (max)": {
-      "Codex": 0.6228044140547706
+      "Codex": 0.622804414054771
     },
     "GPT-5.6 Terra (low)": {
       "Codex": 0.3672755174325257
-    },
-    "Qwen3.7 Plus (thinking)": {
-      "Claude Code": 0.359697734519316
     },
     "GPT-5.6 Terra (high)": {
       "Codex": 0.5579267279595571
     },
     "GPT-5.6 Sol (xhigh)": {
       "Codex": 0.6509235470126135
-    },
-    "GPT-5.6 Sol (none)": {
-      "Codex": 0.4341743358300597
     },
     "GPT-5.6 Sol (medium)": {
       "Codex": 0.606144468762225
@@ -86,17 +74,20 @@
       "Codex": 0.39051032599419666,
       "Cursor CLI": 0.3678955453149003
     },
+    "Qwen3.7 Plus (thinking)": {
+      "Claude Code": 0.359697734519316
+    },
     "Kimi K2.6": {
       "Claude Code": 0.326185265237506
     },
     "GLM-5.1": {
-      "Claude Code": 0.36131539557174736
+      "Claude Code": 0.361315395571747
     },
     "Sonnet 4.6 (medium)": {
       "Claude Code": 0.3760597492398807
     },
     "Opus 4.8 (high)": {
-      "Claude Code": 0.5669800035343857
+      "Claude Code": 0.5669800035343854
     },
     "Opus 4.8 (xhigh)": {
       "Claude Code": 0.5847285848713197
@@ -125,13 +116,16 @@
       "Claude Code": 0.655251281214741
     },
     "Opus 5 (medium)": {
-      "Claude Code": 0.6191937522939523
+      "Claude Code": 0.619193752293952
     },
     "Opus 5 (high)": {
       "Claude Code": 0.633730800659148
     },
     "Opus 5 (low)": {
       "Claude Code": 0.5679527147554554
+    },
+    "GPT-5.6 Luna (max)": {
+      "Codex": 0.5865981086506351
     },
     "GPT-5.6 Luna (medium)": {
       "Codex": 0.4240692407263916
@@ -146,15 +140,21 @@
       "Cursor CLI": 0.2747482505547023
     },
     "Composer 2.5": {
-      "Cursor CLI": 0.3819077223302175
+      "Cursor CLI": 0.3819077223302172
+    },
+    "GPT-5.6 Terra (none)": {
+      "Codex": 0.23702812555224767
+    },
+    "GPT-5.6 Sol (none)": {
+      "Codex": 0.4341743358300597
     }
   },
   "DeepSWE": {
-    "GLM-5.2": {
-      "Claude Code": 0.286135693215339
-    },
     "GPT-5.6 Sol (max)": {
       "Codex": 0.687315634218289
+    },
+    "GLM-5.2": {
+      "Claude Code": 0.286135693215339
     },
     "DeepSeek V4 Pro (high)": {
       "Claude Code": 0.0855457227138643
@@ -180,9 +180,6 @@
     "Muse Spark 1.1 (xhigh)": {
       "Opencode": 0.542772861356932
     },
-    "GPT-5.6 Luna (max)": {
-      "Codex": 0.634218289085546
-    },
     "GPT-5.6 Luna (low)": {
       "Codex": 0.103244837758112
     },
@@ -191,9 +188,6 @@
     },
     "GPT-5.6 Terra (xhigh)": {
       "Codex": 0.584070796460177
-    },
-    "GPT-5.6 Terra (none)": {
-      "Codex": 0.132743362831858
     },
     "GPT-5.6 Terra (medium)": {
       "Codex": 0.457227138643068
@@ -204,17 +198,11 @@
     "GPT-5.6 Terra (low)": {
       "Codex": 0.297935103244838
     },
-    "Qwen3.7 Plus (thinking)": {
-      "Claude Code": 0.191740412979351
-    },
     "GPT-5.6 Terra (high)": {
       "Codex": 0.604719764011799
     },
     "GPT-5.6 Sol (xhigh)": {
       "Codex": 0.669616519174041
-    },
-    "GPT-5.6 Sol (none)": {
-      "Codex": 0.353982300884956
     },
     "GPT-5.6 Sol (medium)": {
       "Codex": 0.640117994100295
@@ -236,6 +224,9 @@
       "Codex": 0.25,
       "Cursor CLI": 0.166666666666667
     },
+    "Qwen3.7 Plus (thinking)": {
+      "Claude Code": 0.191740412979351
+    },
     "Kimi K2.6": {
       "Claude Code": 0.165191740412979
     },
@@ -246,7 +237,7 @@
       "Claude Code": 0.289085545722714
     },
     "Opus 4.8 (high)": {
-      "Claude Code": 0.516224188790561
+      "Claude Code": 0.51622418879056
     },
     "Opus 4.8 (xhigh)": {
       "Claude Code": 0.513274336283186
@@ -272,13 +263,16 @@
       "Claude Code": 0.631268436578171
     },
     "Opus 5 (medium)": {
-      "Claude Code": 0.628318584070797
+      "Claude Code": 0.628318584070796
     },
     "Opus 5 (high)": {
       "Claude Code": 0.607669616519174
     },
     "Opus 5 (low)": {
       "Claude Code": 0.569321533923304
+    },
+    "GPT-5.6 Luna (max)": {
+      "Codex": 0.634218289085546
     },
     "GPT-5.6 Luna (medium)": {
       "Codex": 0.365781710914454
@@ -291,14 +285,20 @@
     },
     "Composer 2.5": {
       "Cursor CLI": 0.15929203539823
+    },
+    "GPT-5.6 Terra (none)": {
+      "Codex": 0.132743362831858
+    },
+    "GPT-5.6 Sol (none)": {
+      "Codex": 0.353982300884956
     }
   },
   "Terminal-Bench v2": {
-    "GLM-5.2": {
-      "Claude Code": 0.718875502008032
-    },
     "GPT-5.6 Sol (max)": {
       "Codex": 0.876984126984127
+    },
+    "GLM-5.2": {
+      "Claude Code": 0.718875502008032
     },
     "DeepSeek V4 Pro (high)": {
       "Claude Code": 0.658730158730159
@@ -310,7 +310,7 @@
       "Claude Code": 0.825396825396825
     },
     "Composer 2.5 Fast": {
-      "Cursor CLI": 0.6746031746031751
+      "Cursor CLI": 0.674603174603174
     },
     "Gemini 3.1 Pro (high)": {
       "Gemini CLI": 0.682539682539683
@@ -324,9 +324,6 @@
     "Muse Spark 1.1 (xhigh)": {
       "Opencode": 0.73015873015873
     },
-    "GPT-5.6 Luna (max)": {
-      "Codex": 0.797619047619048
-    },
     "GPT-5.6 Luna (low)": {
       "Codex": 0.496031746031746
     },
@@ -334,31 +331,22 @@
       "Codex": 0.718253968253968
     },
     "GPT-5.6 Terra (xhigh)": {
-      "Codex": 0.805555555555555
-    },
-    "GPT-5.6 Terra (none)": {
-      "Codex": 0.392857142857143
+      "Codex": 0.805555555555556
     },
     "GPT-5.6 Terra (medium)": {
-      "Codex": 0.694444444444445
+      "Codex": 0.694444444444444
     },
     "GPT-5.6 Terra (max)": {
-      "Codex": 0.841269841269841
+      "Codex": 0.841269841269842
     },
     "GPT-5.6 Terra (low)": {
       "Codex": 0.575396825396825
-    },
-    "Qwen3.7 Plus (thinking)": {
-      "Claude Code": 0.650793650793651
     },
     "GPT-5.6 Terra (high)": {
       "Codex": 0.759920634920635
     },
     "GPT-5.6 Sol (xhigh)": {
       "Codex": 0.861111111111111
-    },
-    "GPT-5.6 Sol (none)": {
-      "Codex": 0.607142857142857
     },
     "GPT-5.6 Sol (medium)": {
       "Codex": 0.777777777777778
@@ -380,11 +368,14 @@
       "Codex": 0.698412698412698,
       "Cursor CLI": 0.654761904761905
     },
+    "Qwen3.7 Plus (thinking)": {
+      "Claude Code": 0.650793650793651
+    },
     "Kimi K2.6": {
       "Claude Code": 0.654761904761905
     },
     "GLM-5.1": {
-      "Claude Code": 0.650793650793651
+      "Claude Code": 0.65079365079365
     },
     "Sonnet 4.6 (medium)": {
       "Claude Code": 0.642857142857143
@@ -427,6 +418,9 @@
     "Opus 5 (low)": {
       "Claude Code": 0.742063492063492
     },
+    "GPT-5.6 Luna (max)": {
+      "Codex": 0.797619047619047
+    },
     "GPT-5.6 Luna (medium)": {
       "Codex": 0.634920634920635
     },
@@ -440,15 +434,21 @@
       "Cursor CLI": 0.646825396825397
     },
     "Composer 2.5": {
-      "Cursor CLI": 0.6746031746031751
+      "Cursor CLI": 0.674603174603174
+    },
+    "GPT-5.6 Terra (none)": {
+      "Codex": 0.392857142857143
+    },
+    "GPT-5.6 Sol (none)": {
+      "Codex": 0.607142857142857
     }
   },
   "SWE-Atlas-QnA": {
-    "GLM-5.2": {
-      "Claude Code": 0.290322580645161
-    },
     "GPT-5.6 Sol (max)": {
       "Codex": 0.432795698924731
+    },
+    "GLM-5.2": {
+      "Claude Code": 0.290322580645161
     },
     "DeepSeek V4 Pro (high)": {
       "Claude Code": 0.198924731182796
@@ -474,9 +474,6 @@
     "Muse Spark 1.1 (xhigh)": {
       "Opencode": 0.333333333333333
     },
-    "GPT-5.6 Luna (max)": {
-      "Codex": 0.327956989247312
-    },
     "GPT-5.6 Luna (low)": {
       "Codex": 0.153225806451613
     },
@@ -485,9 +482,6 @@
     },
     "GPT-5.6 Terra (xhigh)": {
       "Codex": 0.32258064516129
-    },
-    "GPT-5.6 Terra (none)": {
-      "Codex": 0.185483870967742
     },
     "GPT-5.6 Terra (medium)": {
       "Codex": 0.282258064516129
@@ -498,17 +492,11 @@
     "GPT-5.6 Terra (low)": {
       "Codex": 0.228494623655914
     },
-    "Qwen3.7 Plus (thinking)": {
-      "Claude Code": 0.236559139784946
-    },
     "GPT-5.6 Terra (high)": {
       "Codex": 0.309139784946237
     },
     "GPT-5.6 Sol (xhigh)": {
       "Codex": 0.422043010752688
-    },
-    "GPT-5.6 Sol (none)": {
-      "Codex": 0.341397849462366
     },
     "GPT-5.6 Sol (medium)": {
       "Codex": 0.400537634408602
@@ -529,6 +517,9 @@
     "GPT-5.4 (medium)": {
       "Codex": 0.223118279569892,
       "Cursor CLI": 0.282258064516129
+    },
+    "Qwen3.7 Plus (thinking)": {
+      "Claude Code": 0.236559139784946
     },
     "Kimi K2.6": {
       "Claude Code": 0.158602150537634
@@ -577,6 +568,9 @@
     "Opus 5 (low)": {
       "Claude Code": 0.39247311827957
     },
+    "GPT-5.6 Luna (max)": {
+      "Codex": 0.327956989247312
+    },
     "GPT-5.6 Luna (medium)": {
       "Codex": 0.271505376344086
     },
@@ -591,6 +585,12 @@
     },
     "Composer 2.5": {
       "Cursor CLI": 0.3118279569892475
+    },
+    "GPT-5.6 Terra (none)": {
+      "Codex": 0.185483870967742
+    },
+    "GPT-5.6 Sol (none)": {
+      "Codex": 0.341397849462366
     }
   }
 }

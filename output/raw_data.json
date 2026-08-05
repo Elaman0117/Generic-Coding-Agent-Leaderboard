@@ -1,18 +1,5 @@
 [
   {
-    "agent": "Claude Code",
-    "model": "GLM-5.2",
-    "displayLabel": "Claude Code - GLM-5.2",
-    "hostModelSlug": "novita_glm-5-2_fp8",
-    "provider": "novita",
-    "perf": {
-      "Index": 0.4317779252895107,
-      "DeepSWE": 0.286135693215339,
-      "Terminal-Bench v2": 0.718875502008032,
-      "SWE-Atlas-QnA": 0.290322580645161
-    }
-  },
-  {
     "agent": "Codex",
     "model": "GPT-5.6 Sol (max)",
     "displayLabel": "Codex - GPT-5.6 Sol (max)",
@@ -23,6 +10,19 @@
       "DeepSWE": 0.687315634218289,
       "Terminal-Bench v2": 0.876984126984127,
       "SWE-Atlas-QnA": 0.432795698924731
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "GLM-5.2",
+    "displayLabel": "Claude Code - GLM-5.2",
+    "hostModelSlug": "novita_glm-5-2_fp8",
+    "provider": "novita",
+    "perf": {
+      "Index": 0.4317779252895107,
+      "DeepSWE": 0.286135693215339,
+      "Terminal-Bench v2": 0.718875502008032,
+      "SWE-Atlas-QnA": 0.290322580645161
     }
   },
   {
@@ -71,9 +71,9 @@
     "hostModelSlug": "cursor_composer-2-5-fast",
     "provider": "cursor",
     "perf": {
-      "Index": 0.3819077223302175,
+      "Index": 0.3819077223302172,
       "DeepSWE": 0.15929203539823,
-      "Terminal-Bench v2": 0.6746031746031751,
+      "Terminal-Bench v2": 0.674603174603174,
       "SWE-Atlas-QnA": 0.3118279569892475
     }
   },
@@ -131,19 +131,6 @@
   },
   {
     "agent": "Codex",
-    "model": "GPT-5.6 Luna (max)",
-    "displayLabel": "Codex - GPT-5.6 Luna (max)",
-    "hostModelSlug": "openai_opal-alpha",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.5865981086506353,
-      "DeepSWE": 0.634218289085546,
-      "Terminal-Bench v2": 0.797619047619048,
-      "SWE-Atlas-QnA": 0.327956989247312
-    }
-  },
-  {
-    "agent": "Codex",
     "model": "GPT-5.6 Luna (low)",
     "displayLabel": "Codex - GPT-5.6 Luna (low)",
     "hostModelSlug": "openai_opal-alpha",
@@ -175,23 +162,10 @@
     "hostModelSlug": "openai_nova-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.570735665725674,
+      "Index": 0.5707356657256744,
       "DeepSWE": 0.584070796460177,
-      "Terminal-Bench v2": 0.805555555555555,
+      "Terminal-Bench v2": 0.805555555555556,
       "SWE-Atlas-QnA": 0.32258064516129
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Terra (none)",
-    "displayLabel": "Codex - GPT-5.6 Terra (none)",
-    "hostModelSlug": "openai_nova-alpha",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.23702812555224767,
-      "DeepSWE": 0.132743362831858,
-      "Terminal-Bench v2": 0.392857142857143,
-      "SWE-Atlas-QnA": 0.185483870967742
     }
   },
   {
@@ -201,9 +175,9 @@
     "hostModelSlug": "openai_nova-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.4779765492012141,
+      "Index": 0.47797654920121374,
       "DeepSWE": 0.457227138643068,
-      "Terminal-Bench v2": 0.694444444444445,
+      "Terminal-Bench v2": 0.694444444444444,
       "SWE-Atlas-QnA": 0.282258064516129
     }
   },
@@ -214,9 +188,9 @@
     "hostModelSlug": "openai_nova-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.6228044140547706,
+      "Index": 0.622804414054771,
       "DeepSWE": 0.669616519174041,
-      "Terminal-Bench v2": 0.841269841269841,
+      "Terminal-Bench v2": 0.841269841269842,
       "SWE-Atlas-QnA": 0.35752688172043
     }
   },
@@ -231,19 +205,6 @@
       "DeepSWE": 0.297935103244838,
       "Terminal-Bench v2": 0.575396825396825,
       "SWE-Atlas-QnA": 0.228494623655914
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Qwen3.7 Plus (thinking)",
-    "displayLabel": "Claude Code - Qwen3.7 Plus (thinking)",
-    "hostModelSlug": "alibaba_cloud_qwen3-7-plus",
-    "provider": "alibaba_cloud",
-    "perf": {
-      "Index": 0.359697734519316,
-      "DeepSWE": 0.191740412979351,
-      "Terminal-Bench v2": 0.650793650793651,
-      "SWE-Atlas-QnA": 0.236559139784946
     }
   },
   {
@@ -270,19 +231,6 @@
       "DeepSWE": 0.669616519174041,
       "Terminal-Bench v2": 0.861111111111111,
       "SWE-Atlas-QnA": 0.422043010752688
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (none)",
-    "displayLabel": "Codex - GPT-5.6 Sol (none)",
-    "hostModelSlug": "openai_kindle-alpha-api",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.4341743358300597,
-      "DeepSWE": 0.353982300884956,
-      "Terminal-Bench v2": 0.607142857142857,
-      "SWE-Atlas-QnA": 0.341397849462366
     }
   },
   {
@@ -365,6 +313,19 @@
   },
   {
     "agent": "Claude Code",
+    "model": "Qwen3.7 Plus (thinking)",
+    "displayLabel": "Claude Code - Qwen3.7 Plus (thinking)",
+    "hostModelSlug": "alibaba_cloud_qwen3-7-plus",
+    "provider": "alibaba_cloud",
+    "perf": {
+      "Index": 0.359697734519316,
+      "DeepSWE": 0.191740412979351,
+      "Terminal-Bench v2": 0.650793650793651,
+      "SWE-Atlas-QnA": 0.236559139784946
+    }
+  },
+  {
+    "agent": "Claude Code",
     "model": "Kimi K2.6",
     "displayLabel": "Claude Code - Kimi K2.6",
     "hostModelSlug": "moonshot_kimi-k2-6",
@@ -383,9 +344,9 @@
     "hostModelSlug": "friendliai_glm-5-1",
     "provider": "friendliai",
     "perf": {
-      "Index": 0.36131539557174736,
+      "Index": 0.361315395571747,
       "DeepSWE": 0.185840707964602,
-      "Terminal-Bench v2": 0.650793650793651,
+      "Terminal-Bench v2": 0.65079365079365,
       "SWE-Atlas-QnA": 0.247311827956989
     }
   },
@@ -409,8 +370,8 @@
     "hostModelSlug": "anthropic_claude-opus-4-8_api-key",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.5669800035343857,
-      "DeepSWE": 0.516224188790561,
+      "Index": 0.5669800035343854,
+      "DeepSWE": 0.51622418879056,
       "Terminal-Bench v2": 0.797619047619048,
       "SWE-Atlas-QnA": 0.387096774193548
     }
@@ -525,8 +486,8 @@
     "hostModelSlug": "anthropic_claude-hotteok-eap",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6191937522939523,
-      "DeepSWE": 0.628318584070797,
+      "Index": 0.619193752293952,
+      "DeepSWE": 0.628318584070796,
       "Terminal-Bench v2": 0.785714285714286,
       "SWE-Atlas-QnA": 0.443548387096774
     }
@@ -555,6 +516,19 @@
       "DeepSWE": 0.569321533923304,
       "Terminal-Bench v2": 0.742063492063492,
       "SWE-Atlas-QnA": 0.39247311827957
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (max)",
+    "displayLabel": "Codex - GPT-5.6 Luna (max)",
+    "hostModelSlug": "openai_opal-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.5865981086506351,
+      "DeepSWE": 0.634218289085546,
+      "Terminal-Bench v2": 0.797619047619047,
+      "SWE-Atlas-QnA": 0.327956989247312
     }
   },
   {
@@ -629,9 +603,9 @@
     "hostModelSlug": "cursor_composer-2-5",
     "provider": "cursor",
     "perf": {
-      "Index": 0.3819077223302175,
+      "Index": 0.3819077223302172,
       "DeepSWE": 0.15929203539823,
-      "Terminal-Bench v2": 0.6746031746031751,
+      "Terminal-Bench v2": 0.674603174603174,
       "SWE-Atlas-QnA": 0.3118279569892475
     }
   },
@@ -672,6 +646,32 @@
       "DeepSWE": 0.395280235988201,
       "Terminal-Bench v2": 0.753968253968254,
       "SWE-Atlas-QnA": 0.349462365591398
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (none)",
+    "displayLabel": "Codex - GPT-5.6 Terra (none)",
+    "hostModelSlug": "openai_nova-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.23702812555224767,
+      "DeepSWE": 0.132743362831858,
+      "Terminal-Bench v2": 0.392857142857143,
+      "SWE-Atlas-QnA": 0.185483870967742
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (none)",
+    "displayLabel": "Codex - GPT-5.6 Sol (none)",
+    "hostModelSlug": "openai_kindle-alpha-api",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.4341743358300597,
+      "DeepSWE": 0.353982300884956,
+      "Terminal-Bench v2": 0.607142857142857,
+      "SWE-Atlas-QnA": 0.341397849462366
     }
   }
 ]
