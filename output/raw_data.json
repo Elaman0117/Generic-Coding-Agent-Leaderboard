@@ -71,9 +71,9 @@
     "hostModelSlug": "cursor_composer-2-5-fast",
     "provider": "cursor",
     "perf": {
-      "Index": 0.3819077223302172,
+      "Index": 0.3819077223302173,
       "DeepSWE": 0.15929203539823,
-      "Terminal-Bench v2": 0.674603174603174,
+      "Terminal-Bench v2": 0.6746031746031745,
       "SWE-Atlas-QnA": 0.3118279569892475
     }
   },
@@ -131,28 +131,15 @@
   },
   {
     "agent": "Codex",
-    "model": "GPT-5.6 Luna (low)",
-    "displayLabel": "Codex - GPT-5.6 Luna (low)",
-    "hostModelSlug": "openai_opal-alpha",
+    "model": "GPT-5.6 Sol (low)",
+    "displayLabel": "Codex - GPT-5.6 Sol (low)",
+    "hostModelSlug": "openai_kindle-alpha-api",
     "provider": "openai",
     "perf": {
-      "Index": 0.2508341300804903,
-      "DeepSWE": 0.103244837758112,
-      "Terminal-Bench v2": 0.496031746031746,
-      "SWE-Atlas-QnA": 0.153225806451613
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Luna (high)",
-    "displayLabel": "Codex - GPT-5.6 Luna (high)",
-    "hostModelSlug": "openai_opal-alpha",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.514166617577979,
+      "Index": 0.536056018499638,
       "DeepSWE": 0.533923303834808,
-      "Terminal-Bench v2": 0.718253968253968,
-      "SWE-Atlas-QnA": 0.290322580645161
+      "Terminal-Bench v2": 0.73015873015873,
+      "SWE-Atlas-QnA": 0.344086021505376
     }
   },
   {
@@ -162,10 +149,23 @@
     "hostModelSlug": "openai_nova-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.5707356657256744,
+      "Index": 0.570735665725674,
       "DeepSWE": 0.584070796460177,
-      "Terminal-Bench v2": 0.805555555555556,
+      "Terminal-Bench v2": 0.805555555555555,
       "SWE-Atlas-QnA": 0.32258064516129
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (none)",
+    "displayLabel": "Codex - GPT-5.6 Terra (none)",
+    "hostModelSlug": "openai_nova-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.23702812555224767,
+      "DeepSWE": 0.132743362831858,
+      "Terminal-Bench v2": 0.392857142857143,
+      "SWE-Atlas-QnA": 0.185483870967742
     }
   },
   {
@@ -175,9 +175,9 @@
     "hostModelSlug": "openai_nova-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.47797654920121374,
+      "Index": 0.4779765492012141,
       "DeepSWE": 0.457227138643068,
-      "Terminal-Bench v2": 0.694444444444444,
+      "Terminal-Bench v2": 0.694444444444445,
       "SWE-Atlas-QnA": 0.282258064516129
     }
   },
@@ -188,9 +188,9 @@
     "hostModelSlug": "openai_nova-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.622804414054771,
+      "Index": 0.6228044140547706,
       "DeepSWE": 0.669616519174041,
-      "Terminal-Bench v2": 0.841269841269842,
+      "Terminal-Bench v2": 0.841269841269841,
       "SWE-Atlas-QnA": 0.35752688172043
     }
   },
@@ -235,6 +235,19 @@
   },
   {
     "agent": "Codex",
+    "model": "GPT-5.6 Sol (none)",
+    "displayLabel": "Codex - GPT-5.6 Sol (none)",
+    "hostModelSlug": "openai_kindle-alpha-api",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.4341743358300597,
+      "DeepSWE": 0.353982300884956,
+      "Terminal-Bench v2": 0.607142857142857,
+      "SWE-Atlas-QnA": 0.341397849462366
+    }
+  },
+  {
+    "agent": "Codex",
     "model": "GPT-5.6 Sol (medium)",
     "displayLabel": "Codex - GPT-5.6 Sol (medium)",
     "hostModelSlug": "openai_kindle-alpha-api",
@@ -244,19 +257,6 @@
       "DeepSWE": 0.640117994100295,
       "Terminal-Bench v2": 0.777777777777778,
       "SWE-Atlas-QnA": 0.400537634408602
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (low)",
-    "displayLabel": "Codex - GPT-5.6 Sol (low)",
-    "hostModelSlug": "openai_kindle-alpha-api",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.536056018499638,
-      "DeepSWE": 0.533923303834808,
-      "Terminal-Bench v2": 0.73015873015873,
-      "SWE-Atlas-QnA": 0.344086021505376
     }
   },
   {
@@ -344,9 +344,9 @@
     "hostModelSlug": "friendliai_glm-5-1",
     "provider": "friendliai",
     "perf": {
-      "Index": 0.361315395571747,
+      "Index": 0.36131539557174736,
       "DeepSWE": 0.185840707964602,
-      "Terminal-Bench v2": 0.65079365079365,
+      "Terminal-Bench v2": 0.650793650793651,
       "SWE-Atlas-QnA": 0.247311827956989
     }
   },
@@ -370,10 +370,10 @@
     "hostModelSlug": "anthropic_claude-opus-4-8_api-key",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.5669800035343854,
-      "DeepSWE": 0.51622418879056,
+      "Index": 0.567876060882056,
+      "DeepSWE": 0.516224188790561,
       "Terminal-Bench v2": 0.797619047619048,
-      "SWE-Atlas-QnA": 0.387096774193548
+      "SWE-Atlas-QnA": 0.389784946236559
     }
   },
   {
@@ -520,14 +520,40 @@
   },
   {
     "agent": "Codex",
+    "model": "GPT-5.6 Luna (high)",
+    "displayLabel": "Codex - GPT-5.6 Luna (high)",
+    "hostModelSlug": "openai_opal-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.514166617577979,
+      "DeepSWE": 0.533923303834808,
+      "Terminal-Bench v2": 0.718253968253968,
+      "SWE-Atlas-QnA": 0.290322580645161
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (low)",
+    "displayLabel": "Codex - GPT-5.6 Luna (low)",
+    "hostModelSlug": "openai_opal-alpha",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.2508341300804903,
+      "DeepSWE": 0.103244837758112,
+      "Terminal-Bench v2": 0.496031746031746,
+      "SWE-Atlas-QnA": 0.153225806451613
+    }
+  },
+  {
+    "agent": "Codex",
     "model": "GPT-5.6 Luna (max)",
     "displayLabel": "Codex - GPT-5.6 Luna (max)",
     "hostModelSlug": "openai_opal-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.5865981086506351,
+      "Index": 0.5865981086506353,
       "DeepSWE": 0.634218289085546,
-      "Terminal-Bench v2": 0.797619047619047,
+      "Terminal-Bench v2": 0.797619047619048,
       "SWE-Atlas-QnA": 0.327956989247312
     }
   },
@@ -577,8 +603,8 @@
     "hostModelSlug": "anthropic_claude-opus-4-7",
     "provider": "cursor",
     "perf": {
-      "Index": 0.4535643673525487,
-      "DeepSWE": 0.315634218289085,
+      "Index": 0.453564367352549,
+      "DeepSWE": 0.315634218289086,
       "Terminal-Bench v2": 0.706349206349206,
       "SWE-Atlas-QnA": 0.338709677419355
     }
@@ -603,9 +629,9 @@
     "hostModelSlug": "cursor_composer-2-5",
     "provider": "cursor",
     "perf": {
-      "Index": 0.3819077223302172,
+      "Index": 0.3819077223302173,
       "DeepSWE": 0.15929203539823,
-      "Terminal-Bench v2": 0.674603174603174,
+      "Terminal-Bench v2": 0.6746031746031745,
       "SWE-Atlas-QnA": 0.3118279569892475
     }
   },
@@ -616,9 +642,9 @@
     "hostModelSlug": "openai_gpt-5-4",
     "provider": "cursor",
     "perf": {
-      "Index": 0.3678955453149003,
+      "Index": 0.370541047960403,
       "DeepSWE": 0.166666666666667,
-      "Terminal-Bench v2": 0.654761904761905,
+      "Terminal-Bench v2": 0.662698412698413,
       "SWE-Atlas-QnA": 0.282258064516129
     }
   },
@@ -646,32 +672,6 @@
       "DeepSWE": 0.395280235988201,
       "Terminal-Bench v2": 0.753968253968254,
       "SWE-Atlas-QnA": 0.349462365591398
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Terra (none)",
-    "displayLabel": "Codex - GPT-5.6 Terra (none)",
-    "hostModelSlug": "openai_nova-alpha",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.23702812555224767,
-      "DeepSWE": 0.132743362831858,
-      "Terminal-Bench v2": 0.392857142857143,
-      "SWE-Atlas-QnA": 0.185483870967742
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (none)",
-    "displayLabel": "Codex - GPT-5.6 Sol (none)",
-    "hostModelSlug": "openai_kindle-alpha-api",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.4341743358300597,
-      "DeepSWE": 0.353982300884956,
-      "Terminal-Bench v2": 0.607142857142857,
-      "SWE-Atlas-QnA": 0.341397849462366
     }
   }
 ]
