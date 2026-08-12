@@ -14,7 +14,7 @@
       "Terminal-Bench v2": "higher_is_better",
       "SWE-Atlas-QnA": "higher_is_better"
     },
-    "total_combinations": 53,
+    "total_combinations": 55,
     "surviving_models": [
       "GPT-5.4 (medium)",
       "GPT-5.5 (medium)",
