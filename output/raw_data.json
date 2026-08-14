@@ -130,32 +130,6 @@
     }
   },
   {
-    "agent": "Gemini CLI",
-    "model": "Gemini 3.1 Pro (high)",
-    "displayLabel": "Gemini CLI - Gemini 3.1 Pro (high)",
-    "hostModelSlug": "google_gemini-3-1-pro_ai-studio",
-    "provider": "gemini",
-    "perf": {
-      "Index": 0.3033847027566694,
-      "DeepSWE": 0.141592920353982,
-      "Terminal-Bench v2": 0.682539682539682,
-      "SWE-Atlas-QnA": 0.0860215053763441
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Opus 4.7 (max)",
-    "displayLabel": "Claude Code - Opus 4.7 (max)",
-    "hostModelSlug": "anthropic_claude-opus-4-7",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.503414307011224,
-      "DeepSWE": 0.40117994100295,
-      "Terminal-Bench v2": 0.738095238095238,
-      "SWE-Atlas-QnA": 0.370967741935484
-    }
-  },
-  {
     "agent": "Codex",
     "model": "GPT-5.6 Sol (high)",
     "displayLabel": "Codex - GPT-5.6 Sol (high)",
@@ -253,8 +227,8 @@
     "hostModelSlug": "anthropic_claude-opus-4-8",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.5356028921544197,
-      "DeepSWE": 0.492625368731564,
+      "Index": 0.5356028921544193,
+      "DeepSWE": 0.492625368731563,
       "Terminal-Bench v2": 0.753968253968254,
       "SWE-Atlas-QnA": 0.360215053763441
     }
@@ -266,10 +240,10 @@
     "hostModelSlug": "anthropic_claude-opus-4-8",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6054088936618194,
+      "Index": 0.6063049510094897,
       "DeepSWE": 0.557522123893805,
       "Terminal-Bench v2": 0.793650793650793,
-      "SWE-Atlas-QnA": 0.46505376344086
+      "SWE-Atlas-QnA": 0.467741935483871
     }
   },
   {
@@ -305,9 +279,9 @@
     "hostModelSlug": "openai_opal-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.5865981086506353,
+      "Index": 0.5865981086506351,
       "DeepSWE": 0.634218289085546,
-      "Terminal-Bench v2": 0.797619047619048,
+      "Terminal-Bench v2": 0.797619047619047,
       "SWE-Atlas-QnA": 0.327956989247312
     }
   },
@@ -344,10 +318,10 @@
     "hostModelSlug": "alibaba_cloud_qwen3-8-max-public",
     "provider": "alibaba_cloud",
     "perf": {
-      "Index": 0.5872498553771748,
+      "Index": 0.5661797068876715,
       "DeepSWE": 0.519174041297935,
       "Terminal-Bench v2": 0.793650793650793,
-      "SWE-Atlas-QnA": 0.448924731182796
+      "SWE-Atlas-QnA": 0.385714285714286
     }
   },
   {
@@ -396,9 +370,9 @@
     "hostModelSlug": "openai_nova-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.622804414054771,
+      "Index": 0.6228044140547706,
       "DeepSWE": 0.669616519174041,
-      "Terminal-Bench v2": 0.841269841269842,
+      "Terminal-Bench v2": 0.841269841269841,
       "SWE-Atlas-QnA": 0.35752688172043
     }
   },
@@ -409,10 +383,10 @@
     "hostModelSlug": "anthropic_claude-opus-4-7",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.4995702851826177,
+      "Index": 0.5031545145732986,
       "DeepSWE": 0.395280235988201,
       "Terminal-Bench v2": 0.753968253968254,
-      "SWE-Atlas-QnA": 0.349462365591398
+      "SWE-Atlas-QnA": 0.360215053763441
     }
   },
   {
@@ -461,9 +435,9 @@
     "hostModelSlug": "anthropic_claude-opus-4-7",
     "provider": "cursor",
     "perf": {
-      "Index": 0.4535643673525487,
-      "DeepSWE": 0.315634218289085,
-      "Terminal-Bench v2": 0.706349206349206,
+      "Index": 0.45356436735254935,
+      "DeepSWE": 0.315634218289086,
+      "Terminal-Bench v2": 0.706349206349207,
       "SWE-Atlas-QnA": 0.338709677419355
     }
   },
@@ -474,10 +448,10 @@
     "hostModelSlug": "anthropic_claude-opus-4-8_api-key",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.567876060882056,
+      "Index": 0.5669800035343857,
       "DeepSWE": 0.516224188790561,
       "Terminal-Bench v2": 0.797619047619048,
-      "SWE-Atlas-QnA": 0.389784946236559
+      "SWE-Atlas-QnA": 0.387096774193548
     }
   },
   {
@@ -539,8 +513,8 @@
     "hostModelSlug": "openai_gpt-5-5-medium",
     "provider": "cursor",
     "perf": {
-      "Index": 0.460896706828765,
-      "DeepSWE": 0.371681415929204,
+      "Index": 0.46089670682876466,
+      "DeepSWE": 0.371681415929203,
       "Terminal-Bench v2": 0.734126984126984,
       "SWE-Atlas-QnA": 0.276881720430107
     }
@@ -591,8 +565,8 @@
     "hostModelSlug": "anthropic_claude-opus-4-6",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.46473374295954895,
-      "Terminal-Bench v2": 0.706349206349206,
+      "Index": 0.46473374295954945,
+      "Terminal-Bench v2": 0.706349206349207,
       "SWE-Atlas-QnA": 0.223118279569892
     }
   },
@@ -603,9 +577,9 @@
     "hostModelSlug": "anthropic_claude-opus-4-8",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.5847285848713201,
+      "Index": 0.5847285848713197,
       "DeepSWE": 0.513274336283186,
-      "Terminal-Bench v2": 0.813492063492064,
+      "Terminal-Bench v2": 0.813492063492063,
       "SWE-Atlas-QnA": 0.42741935483871
     }
   },
@@ -616,8 +590,8 @@
     "hostModelSlug": "openai_gpt-5-5",
     "provider": "openai",
     "perf": {
-      "Index": 0.6148509138803173,
-      "DeepSWE": 0.64306784660767,
+      "Index": 0.614850913880317,
+      "DeepSWE": 0.643067846607669,
       "Terminal-Bench v2": 0.841269841269841,
       "SWE-Atlas-QnA": 0.360215053763441
     }
@@ -629,8 +603,8 @@
     "hostModelSlug": "openai_opal-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.514166617577979,
-      "DeepSWE": 0.533923303834808,
+      "Index": 0.5141666175779793,
+      "DeepSWE": 0.533923303834809,
       "Terminal-Bench v2": 0.718253968253968,
       "SWE-Atlas-QnA": 0.290322580645161
     }
@@ -711,6 +685,32 @@
       "DeepSWE": 0.15929203539823,
       "Terminal-Bench v2": 0.674603174603174,
       "SWE-Atlas-QnA": 0.3118279569892475
+    }
+  },
+  {
+    "agent": "Gemini CLI",
+    "model": "Gemini 3.1 Pro (high)",
+    "displayLabel": "Gemini CLI - Gemini 3.1 Pro (high)",
+    "hostModelSlug": "google_gemini-3-1-pro_ai-studio",
+    "provider": "gemini",
+    "perf": {
+      "Index": 0.30338470275666973,
+      "DeepSWE": 0.141592920353982,
+      "Terminal-Bench v2": 0.682539682539683,
+      "SWE-Atlas-QnA": 0.0860215053763441
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.7 (max)",
+    "displayLabel": "Claude Code - Opus 4.7 (max)",
+    "hostModelSlug": "anthropic_claude-opus-4-7",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.503414307011224,
+      "DeepSWE": 0.40117994100295,
+      "Terminal-Bench v2": 0.738095238095238,
+      "SWE-Atlas-QnA": 0.370967741935484
     }
   }
 ]
