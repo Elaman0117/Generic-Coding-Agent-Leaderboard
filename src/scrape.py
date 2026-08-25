@@ -1,33 +1,7 @@
 #!/usr/bin/env python3
 """
 Scraper for the Artificial Analysis Coding Agents benchmark page.
-
-Extracts the full per-combination performance dataset from:
-  https://artificialanalysis.ai/agents/coding-agents
-
-The page is a Next.js app whose data lives inside the RSC payload emitted via
-`self.__next_f.push(...)` calls. Each model × frontend combination appears as
-a JSON object that carries the 4 performance benchmarks shown in the page's
-"Performance" section:
-
-    Index             — overall Coding Agent Index (mean of the 3 sub-benchmarks)
-    DeepSWE           — reward on the DeepSWE benchmark (datacurve-ai/deep-swe)
-    Terminal-Bench v2 — reward on Terminal-Bench v2 (terminal-bench@2.0)
-    SWE-Atlas-QnA     — reward on SWE-Atlas-QnA (datasets/swe-atlas-qna)
-
-All 4 are pass@1 reward scores (higher = better).
-
-The Index comes from the top-level `indexScore` field; the 3 sub-benchmark
-rewards come from the `evals` array, where each entry has a
-`datasetIndexName` ("deep-swe" / "swe-atlas-qna" / "terminal-bench-v2") and
-a `mean.reward` value.
-
-This scraper uses Playwright (same approach as the reference repository
-https://github.com/Elaman0117/Generic-LLM-Leaderboard/) so the RSC stream is
-fully received before extraction. A urllib fallback parses the static HTML
-when Playwright is unavailable.
-
-Output: output/raw_data.json — a list of 42 combination objects.
+(Fixed Version - Robust against RSC payload structure & key name changes)
 """
 
 import json
@@ -39,12 +13,11 @@ URL = "https://artificialanalysis.ai/agents/coding-agents"
 BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "raw_data.json")
-MIN_COMBOS_EXPECTED = 40  # we expect ~42
-
+# 网站目前显示有 56 个模型，保留一定容错空间
+MIN_COMBOS_EXPECTED = 30  
 
 # ──────────────────────────────────────────────────────────────────────
-# Shared extraction logic — given the full RSC payload text, locate every
-# {"id":"<hex>","agentName":"..."} combination object and parse it as JSON.
+# 核心修复：动态查找 JSON 对象，不再依赖硬编码的 id 或 agentName
 # ──────────────────────────────────────────────────────────────────────
 
 def _find_matching_brace(text, start):
@@ -71,33 +44,57 @@ def _find_matching_brace(text, start):
         j += 1
     return None
 
-
 def extract_combinations_from_payload(payload_text):
     """Parse the RSC payload text and return all combination objects."""
     combos = []
-    for m in re.finditer(r'\{"id":"[0-9a-f]+","agentName":"', payload_text):
+    if not payload_text:
+        return combos
+
+    # 匹配所有合法的 JSON 对象起始位置： {"key":
+    for m in re.finditer(r'\{"[a-zA-Z0-9_]+"[ \t]*:', payload_text):
         end = _find_matching_brace(payload_text, m.start())
         if end is None:
             continue
         obj_text = payload_text[m.start():end]
+        
+        # 启发式过滤：跳过明显不包含评测数据的无关 UI 对象 (如 CSS 类名配置)
+        keywords = ["agent", "Agent", "evals", "score", "Score", "index", "Index", "mean", "reward", "deep-swe", "terminal-bench"]
+        if not any(kw in obj_text for kw in keywords):
+            continue
+            
         try:
             obj = json.loads(obj_text)
         except json.JSONDecodeError:
             continue
-        # Keep only objects that look like a real combination row:
-        # must have agentName + an aggregate mean with cacheHitRate.
-        if (
-            "agentName" in obj
-            and isinstance(obj.get("mean"), dict)
-            and "cacheHitRate" in obj["mean"]
-        ):
+            
+        # 智能识别：提取可能变更过的 Agent 名称字段
+        agent_name = (
+            obj.get("agentName") or obj.get("agent") or obj.get("name") or 
+            obj.get("displayName") or obj.get("displayLabel")
+        )
+        
+        # 智能识别：检查是否存在指标字段
+        has_metrics = any(k in obj for k in [
+            "evals", "indexScore", "score", "index", "mean", "reward", "benchmarks", "metrics"
+        ])
+        
+        if agent_name and has_metrics:
             combos.append(obj)
-    return combos
-
+            
+    # 根据 ID 或 Agent+Model 组合进行去重
+    seen = set()
+    unique_combos = []
+    for c in combos:
+        display = c.get("display", {}) or {}
+        uid = c.get("id") or (c.get("agentName") or c.get("agent") or "") + (display.get("model", ""))
+        if uid and uid not in seen:
+            seen.add(uid)
+            unique_combos.append(c)
+            
+    return unique_combos
 
 # ──────────────────────────────────────────────────────────────────────
-# Playwright-based scraper (primary) — navigates to the page, lets the RSC
-# stream finish, then evaluates the same extraction in-browser.
+# Playwright 抓取逻辑 (保持不变)
 # ──────────────────────────────────────────────────────────────────────
 
 EXTRACT_JS = r"""
@@ -122,7 +119,6 @@ EXTRACT_JS = r"""
 })()
 """
 
-
 def scrape_with_playwright():
     from playwright.sync_api import sync_playwright
 
@@ -145,12 +141,6 @@ def scrape_with_playwright():
         browser.close()
     return combos
 
-
-# ──────────────────────────────────────────────────────────────────────
-# Static-HTML fallback — fetch the page with curl/requests and parse the
-# RSC payload directly from the HTML. Useful when Playwright isn't available.
-# ──────────────────────────────────────────────────────────────────────
-
 def scrape_with_urllib():
     import urllib.request
 
@@ -158,10 +148,7 @@ def scrape_with_urllib():
     req = urllib.request.Request(
         URL,
         headers={
-            "User-Agent": (
-                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-            ),
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.9",
         },
@@ -172,12 +159,10 @@ def scrape_with_urllib():
 
     print("[2/3] Extracting RSC payload from static HTML ...")
     fragments = []
-    for m in re.finditer(
-        r"self\.__next_f\.push\(\s*(\[.*?\])\s*\)\s*;?", html, re.DOTALL
-    ):
+    for m in re.finditer(r"self\.__next_f\.push\(\s*(\[.*?\])\s*\)\s*;?", html, re.DOTALL):
         raw = m.group(1)
         try:
-            arr = eval(raw)  # safe-ish: only Next.js literal arrays
+            arr = eval(raw)
             if isinstance(arr, list) and len(arr) >= 2 and isinstance(arr[1], str):
                 fragments.append(arr[1])
         except Exception:
@@ -189,95 +174,81 @@ def scrape_with_urllib():
     print(f"  Parsed {len(combos)} combinations")
     return combos
 
-
 # ──────────────────────────────────────────────────────────────────────
-# Normalisation — slim each combination down to the 4 performance
-# benchmarks (Index + 3 sub-benchmarks) plus identifying fields.
+# 增强版数据标准化逻辑 (兼容网站键名变更)
 # ──────────────────────────────────────────────────────────────────────
 
-# The 4 performance benchmarks shown in the page's "Performance" section.
-# All are pass@1 reward scores (higher = better).
-# `key`        — the field name we'll use downstream
-# `source`     — where in the combination object to find it
-# `dataset`    — for sub-benchmarks, the `datasetIndexName` to look up in `evals`
 PERF_TESTS = [
-    {
-        "key": "Index",
-        "label": "Index",
-        "source": "indexScore",
-    },
-    {
-        "key": "DeepSWE",
-        "label": "DeepSWE",
-        "source": "eval",
-        "dataset": "deep-swe",
-    },
-    {
-        "key": "Terminal-Bench v2",
-        "label": "Terminal-Bench v2",
-        "source": "eval",
-        "dataset": "terminal-bench-v2",
-    },
-    {
-        "key": "SWE-Atlas-QnA",
-        "label": "SWE-Atlas-QnA",
-        "source": "eval",
-        "dataset": "swe-atlas-qna",
-    },
+    {"key": "Index", "label": "Index", "source": "indexScore"},
+    {"key": "DeepSWE", "label": "DeepSWE", "source": "eval", "dataset": "deep-swe"},
+    {"key": "Terminal-Bench v2", "label": "Terminal-Bench v2", "source": "eval", "dataset": "terminal-bench-v2"},
+    {"key": "SWE-Atlas-QnA", "label": "SWE-Atlas-QnA", "source": "eval", "dataset": "swe-atlas-qna"},
 ]
 
-
 def _extract_eval_reward(evals, dataset_name):
-    """Return the mean.reward for the given datasetIndexName, or None."""
     if not isinstance(evals, list):
         return None
     for e in evals:
         if not isinstance(e, dict):
             continue
-        if e.get("datasetIndexName") == dataset_name:
-            mean = e.get("mean") or {}
-            return mean.get("reward")
+        
+        # 兼容可能的字段名变更
+        e_name = (
+            e.get("datasetIndexName") or e.get("name") or e.get("dataset") or 
+            e.get("benchmark") or e.get("slug") or e.get("label")
+        )
+        if e_name and dataset_name.lower() in str(e_name).lower():
+            mean = e.get("mean") or e.get("score") or e.get("result") or e.get("value")
+            if isinstance(mean, dict):
+                return mean.get("reward") or mean.get("score") or mean.get("value") or mean.get("pass@1") or mean.get("mean")
+            return mean
     return None
 
-
 def normalize_combos(combos):
-    """Slim each combination to the fields used downstream."""
     out = []
     for c in combos:
-        display = c.get("display", {}) or {}
-        evals = c.get("evals") or []
-
-        # Build the 4 performance values
+        display = c.get("display", {}) or c
+        evals = c.get("evals") or c.get("benchmarks") or c.get("metrics") or []
+        
         perf = {}
         for test in PERF_TESTS:
+            v = None
             if test["source"] == "indexScore":
-                v = c.get("indexScore")
+                v = c.get("indexScore") or c.get("score") or c.get("index") or c.get("codingAgentIndex") or c.get("mean")
             elif test["source"] == "eval":
                 v = _extract_eval_reward(evals, test["dataset"])
-            else:
-                v = None
+                if v is None:
+                    # 兜底方案：直接在顶层寻找包含 benchmark 名字的键
+                    for k, val in c.items():
+                        if test["dataset"].replace("-", "").lower() in k.lower() and isinstance(val, (int, float)):
+                            v = val
+                            break
+            
             if v is not None:
                 try:
                     perf[test["key"]] = float(v)
                 except (TypeError, ValueError):
                     pass
-
+                    
+        agent = c.get("agentName") or c.get("agent") or c.get("name") or c.get("displayName")
+        model = display.get("model") or display.get("modelName") or c.get("model") or c.get("hostModelSlug")
+        
         entry = {
-            "agent": c.get("agentName"),
-            "model": display.get("model"),
-            "displayLabel": c.get("displayLabel"),
-            "hostModelSlug": c.get("hostModelSlug"),
-            "provider": c.get("provider"),
+            "agent": agent,
+            "model": model,
+            "displayLabel": c.get("displayLabel") or c.get("label"),
+            "hostModelSlug": c.get("hostModelSlug") or c.get("slug"),
+            "provider": c.get("provider") or c.get("providerName"),
             "perf": perf,
         }
-        # Drop if any critical field is missing
+        
         if not entry["agent"] or not entry["model"]:
             continue
         if not entry["perf"]:
             continue
+            
         out.append(entry)
     return out
-
 
 # ──────────────────────────────────────────────────────────────────────
 # Main
@@ -289,14 +260,12 @@ def main():
     combos = None
     errors = []
 
-    # Try Playwright first
     try:
         combos = scrape_with_playwright()
     except Exception as e:
         errors.append(f"playwright: {e}")
         print(f"  Playwright failed: {e}")
 
-    # Fall back to urllib
     if not combos:
         try:
             combos = scrape_with_urllib()
@@ -315,12 +284,8 @@ def main():
     print(f"  Kept {len(normalized)} valid combinations")
 
     if len(normalized) < MIN_COMBOS_EXPECTED:
-        print(
-            f"  WARNING: expected at least {MIN_COMBOS_EXPECTED} combinations, "
-            f"got {len(normalized)}"
-        )
+        print(f"  WARNING: expected at least {MIN_COMBOS_EXPECTED} combinations, got {len(normalized)}")
 
-    # Quick stats
     agents = sorted({c["agent"] for c in normalized})
     models = sorted({c["model"] for c in normalized})
     print(f"  Unique agents (frontends): {agents}")
@@ -332,7 +297,6 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(normalized, f, ensure_ascii=False, indent=2)
     print(f"\nSaved {len(normalized)} combinations to {OUTPUT_FILE}")
-
 
 if __name__ == "__main__":
     try:
