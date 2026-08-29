@@ -1,80 +1,28 @@
 [
   {
-    "agent": "Cursor CLI",
-    "model": "Composer 2.5 Fast",
-    "displayLabel": "Cursor CLI - Composer 2.5 Fast",
-    "hostModelSlug": "cursor_composer-2-5-fast",
-    "provider": "cursor",
-    "perf": {
-      "Index": 0.3830075380367747,
-      "DeepSWE": 0.15929203539823,
-      "Terminal-Bench v2": 0.6779026217228465,
-      "SWE-Atlas-QnA": 0.3118279569892475
-    }
-  },
-  {
-    "agent": "Kimi Code CLI",
-    "model": "Kimi K3",
-    "displayLabel": "Kimi Code CLI - Kimi K3",
-    "hostModelSlug": "moonshot_kimi-k3",
-    "provider": "moonshotai",
-    "perf": {
-      "Index": 0.6263880112748017,
-      "DeepSWE": 0.63716814159292,
-      "Terminal-Bench v2": 0.876404494382023,
-      "SWE-Atlas-QnA": 0.365591397849462
-    }
-  },
-  {
-    "agent": "Opencode",
-    "model": "Gemini 3.7 Flash (high)",
-    "displayLabel": "Opencode - Gemini 3.7 Flash (high)",
-    "hostModelSlug": "google_andwise_ai-studio",
-    "provider": "google",
-    "perf": {
-      "Index": 0.5962784529614886,
-      "DeepSWE": 0.572271386430678,
-      "Terminal-Bench v2": 0.910112359550562,
-      "SWE-Atlas-QnA": 0.306451612903226
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "GLM-5.2",
-    "displayLabel": "Claude Code - GLM-5.2",
-    "hostModelSlug": "novita_glm-5-2_fp8",
-    "provider": "novita",
-    "perf": {
-      "Index": 0.433101571936022,
-      "DeepSWE": 0.286135693215339,
-      "Terminal-Bench v2": 0.722846441947566,
-      "SWE-Atlas-QnA": 0.290322580645161
-    }
-  },
-  {
     "agent": "Codex",
-    "model": "DeepSeek V4 Flash 0731 (max)",
-    "displayLabel": "Codex - DeepSeek V4 Flash 0731 (max)",
-    "hostModelSlug": "deepseek_deepseek-v4-flash-0731",
-    "provider": "deepseek",
+    "model": "GPT-5.6 Sol (max)",
+    "displayLabel": "Codex - GPT-5.6 Sol (max)",
+    "hostModelSlug": "openai_gpt-5-6-sol",
+    "provider": "openai",
     "perf": {
-      "Index": 0.49757600316190537,
-      "DeepSWE": 0.427728613569322,
-      "Terminal-Bench v2": 0.677902621722846,
-      "SWE-Atlas-QnA": 0.387096774193548
+      "Index": 0.6505240024334411,
+      "DeepSWE": 0.687315634218289,
+      "Terminal-Bench v2": 0.831460674157303,
+      "SWE-Atlas-QnA": 0.432795698924731
     }
   },
   {
     "agent": "Claude Code",
-    "model": "Opus 5 (xhigh)",
-    "displayLabel": "Claude Code - Opus 5 (xhigh)",
-    "hostModelSlug": "anthropic_claude-opus-5",
+    "model": "Fable 5 (max) (with fallback)",
+    "displayLabel": "Claude Code - Fable 5 (max) (with fallback)",
+    "hostModelSlug": "anthropic_claude-fable-5",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6814975428587517,
-      "DeepSWE": 0.604719764011799,
-      "Terminal-Bench v2": 0.891385767790262,
-      "SWE-Atlas-QnA": 0.548387096774194
+      "Index": 0.6717276042685724,
+      "DeepSWE": 0.660766961651917,
+      "Terminal-Bench v2": 0.865168539325843,
+      "SWE-Atlas-QnA": 0.489247311827957
     }
   },
   {
@@ -92,74 +40,74 @@
   },
   {
     "agent": "Claude Code",
-    "model": "Fable 5 (max) (with fallback)",
-    "displayLabel": "Claude Code - Fable 5 (max) (with fallback)",
-    "hostModelSlug": "anthropic_claude-fable-5",
+    "model": "Opus 5 (xhigh)",
+    "displayLabel": "Claude Code - Opus 5 (xhigh)",
+    "hostModelSlug": "anthropic_claude-opus-5",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6717276042685724,
-      "DeepSWE": 0.660766961651917,
-      "Terminal-Bench v2": 0.865168539325843,
-      "SWE-Atlas-QnA": 0.489247311827957
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (max)",
-    "displayLabel": "Codex - GPT-5.6 Sol (max)",
-    "hostModelSlug": "openai_gpt-5-6-sol",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.6505240024334411,
-      "DeepSWE": 0.687315634218289,
-      "Terminal-Bench v2": 0.831460674157303,
-      "SWE-Atlas-QnA": 0.432795698924731
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Terra (high)",
-    "displayLabel": "Codex - GPT-5.6 Terra (high)",
-    "hostModelSlug": "openai_gpt-5-6-terra",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.5464647209828707,
+      "Index": 0.6814975428587517,
       "DeepSWE": 0.604719764011799,
-      "Terminal-Bench v2": 0.722846441947566,
-      "SWE-Atlas-QnA": 0.311827956989247
+      "Terminal-Bench v2": 0.891385767790262,
+      "SWE-Atlas-QnA": 0.548387096774194
     }
   },
   {
     "agent": "Codex",
-    "model": "DeepSeek V4 Pro 0813 (max)",
-    "displayLabel": "Codex - DeepSeek V4 Pro 0813 (max)",
-    "hostModelSlug": "deepseek_deepseek-v4-pro-0813",
+    "model": "DeepSeek V4 Flash 0731 (max)",
+    "displayLabel": "Codex - DeepSeek V4 Flash 0731 (max)",
+    "hostModelSlug": "deepseek_deepseek-v4-flash-0731",
     "provider": "deepseek",
     "perf": {
-      "Index": 0.42779695164088,
-      "DeepSWE": 0.162241887905605,
-      "Terminal-Bench v2": 0.629213483146067,
-      "SWE-Atlas-QnA": 0.491935483870968
+      "Index": 0.4975760031619057,
+      "DeepSWE": 0.427728613569322,
+      "Terminal-Bench v2": 0.677902621722847,
+      "SWE-Atlas-QnA": 0.387096774193548
     }
   },
   {
-    "agent": "Gemini CLI",
-    "model": "Gemini 3.1 Pro (high)",
-    "displayLabel": "Gemini CLI - Gemini 3.1 Pro (high)",
-    "hostModelSlug": "google_gemini-3-1-pro_ai-studio",
-    "provider": "gemini",
+    "agent": "Claude Code",
+    "model": "GLM-5.2",
+    "displayLabel": "Claude Code - GLM-5.2",
+    "hostModelSlug": "novita_glm-5-2_fp8",
+    "provider": "novita",
     "perf": {
-      "Index": 0.3293046837328304,
-      "DeepSWE": 0.141592920353982,
-      "Terminal-Bench v2": 0.760299625468165,
-      "SWE-Atlas-QnA": 0.0860215053763441
+      "Index": 0.433101571936022,
+      "DeepSWE": 0.286135693215339,
+      "Terminal-Bench v2": 0.722846441947566,
+      "SWE-Atlas-QnA": 0.290322580645161
+    }
+  },
+  {
+    "agent": "Opencode",
+    "model": "Gemini 3.7 Flash (high)",
+    "displayLabel": "Opencode - Gemini 3.7 Flash (high)",
+    "hostModelSlug": "google_andwise_ai-studio",
+    "provider": "google",
+    "perf": {
+      "Index": 0.5962784529614886,
+      "DeepSWE": 0.572271386430678,
+      "Terminal-Bench v2": 0.910112359550562,
+      "SWE-Atlas-QnA": 0.306451612903226
+    }
+  },
+  {
+    "agent": "Kimi Code CLI",
+    "model": "Kimi K3",
+    "displayLabel": "Kimi Code CLI - Kimi K3",
+    "hostModelSlug": "moonshot_kimi-k3",
+    "provider": "moonshotai",
+    "perf": {
+      "Index": 0.6263880112748017,
+      "DeepSWE": 0.63716814159292,
+      "Terminal-Bench v2": 0.876404494382023,
+      "SWE-Atlas-QnA": 0.365591397849462
     }
   },
   {
     "agent": "Cursor CLI",
-    "model": "Composer 2.5",
-    "displayLabel": "Cursor CLI - Composer 2.5",
-    "hostModelSlug": "cursor_composer-2-5",
+    "model": "Composer 2.5 Fast",
+    "displayLabel": "Cursor CLI - Composer 2.5 Fast",
+    "hostModelSlug": "cursor_composer-2-5-fast",
     "provider": "cursor",
     "perf": {
       "Index": 0.3830075380367747,
@@ -169,41 +117,483 @@
     }
   },
   {
-    "agent": "Claude Code",
-    "model": "Opus 5 (high)",
-    "displayLabel": "Claude Code - Opus 5 (high)",
-    "hostModelSlug": "anthropic_claude-opus-5",
-    "provider": "anthropic",
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (xhigh)",
+    "displayLabel": "Codex - GPT-5.6 Luna (xhigh)",
+    "hostModelSlug": "openai_gpt-5-6-luna",
+    "provider": "openai",
     "perf": {
-      "Index": 0.6561729860226817,
-      "DeepSWE": 0.607669616519174,
-      "Terminal-Bench v2": 0.868913857677903,
-      "SWE-Atlas-QnA": 0.491935483870968
+      "Index": 0.529584326329171,
+      "DeepSWE": 0.566371681415929,
+      "Terminal-Bench v2": 0.707865168539326,
+      "SWE-Atlas-QnA": 0.314516129032258
     }
   },
   {
     "agent": "Claude Code",
-    "model": "DeepSeek V4 Pro (high)",
-    "displayLabel": "Claude Code - DeepSeek V4 Pro (high)",
-    "hostModelSlug": "deepseek_deepseek-v4-pro-1m",
-    "provider": "deepseek",
+    "model": "Kimi K2.6",
+    "displayLabel": "Claude Code - Kimi K2.6",
+    "hostModelSlug": "moonshot_kimi-k2-6",
+    "provider": "moonshotai",
     "perf": {
-      "Index": 0.32828166191062214,
-      "DeepSWE": 0.0855457227138643,
-      "Terminal-Bench v2": 0.700374531835206,
-      "SWE-Atlas-QnA": 0.198924731182796
+      "Index": 0.3388925953605663,
+      "DeepSWE": 0.165191740412979,
+      "Terminal-Bench v2": 0.692883895131086,
+      "SWE-Atlas-QnA": 0.158602150537634
     }
   },
   {
     "agent": "Codex",
-    "model": "GPT-5.6 Terra (max)",
-    "displayLabel": "Codex - GPT-5.6 Terra (max)",
+    "model": "GPT-5.6 Luna (medium)",
+    "displayLabel": "Codex - GPT-5.6 Luna (medium)",
+    "hostModelSlug": "openai_gpt-5-6-luna",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.41966997790016236,
+      "DeepSWE": 0.365781710914454,
+      "Terminal-Bench v2": 0.621722846441947,
+      "SWE-Atlas-QnA": 0.271505376344086
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 5 (max)",
+    "displayLabel": "Claude Code - Opus 5 (max)",
+    "hostModelSlug": "anthropic_claude-opus-5",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.6702814566291138,
+      "DeepSWE": 0.631268436578171,
+      "Terminal-Bench v2": 0.887640449438202,
+      "SWE-Atlas-QnA": 0.491935483870968
+    }
+  },
+  {
+    "agent": "Antigravity SDK v0.1.8",
+    "model": "Gemini 3.7 Flash (high)",
+    "displayLabel": "Antigravity SDK - Gemini 3.7 Flash (high)",
+    "hostModelSlug": "google_andwise_ai-studio",
+    "provider": "google",
+    "perf": {
+      "Index": 0.5657152973570364,
+      "DeepSWE": 0.56047197640118,
+      "Terminal-Bench v2": 0.865168539325843,
+      "SWE-Atlas-QnA": 0.271505376344086
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "GLM-5.1",
+    "displayLabel": "Claude Code - GLM-5.1",
+    "hostModelSlug": "friendliai_glm-5-1",
+    "provider": "friendliai",
+    "perf": {
+      "Index": 0.36910327976412566,
+      "DeepSWE": 0.185840707964602,
+      "Terminal-Bench v2": 0.674157303370786,
+      "SWE-Atlas-QnA": 0.247311827956989
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.7 (medium)",
+    "displayLabel": "Claude Code - Opus 4.7 (medium)",
+    "hostModelSlug": "anthropic_claude-opus-4-7",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.4238927717743627,
+      "DeepSWE": 0.274336283185841,
+      "Terminal-Bench v2": 0.771535580524344,
+      "SWE-Atlas-QnA": 0.225806451612903
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (low)",
+    "displayLabel": "Codex - GPT-5.6 Sol (low)",
+    "hostModelSlug": "openai_gpt-5-6-sol",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.5523451808562164,
+      "DeepSWE": 0.533923303834808,
+      "Terminal-Bench v2": 0.779026217228465,
+      "SWE-Atlas-QnA": 0.344086021505376
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.8 (medium)",
+    "displayLabel": "Claude Code - Opus 4.8 (medium)",
+    "hostModelSlug": "anthropic_claude-opus-4-8",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.5576883805320431,
+      "DeepSWE": 0.492625368731564,
+      "Terminal-Bench v2": 0.820224719101124,
+      "SWE-Atlas-QnA": 0.360215053763441
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.8 (max)",
+    "displayLabel": "Claude Code - Opus 4.8 (max)",
+    "hostModelSlug": "anthropic_claude-opus-4-8",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.6214051234130329,
+      "DeepSWE": 0.557522123893805,
+      "Terminal-Bench v2": 0.838951310861423,
+      "SWE-Atlas-QnA": 0.467741935483871
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (high)",
+    "displayLabel": "Codex - GPT-5.6 Sol (high)",
+    "hostModelSlug": "openai_gpt-5-6-sol",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.6411644486641199,
+      "DeepSWE": 0.648967551622419,
+      "Terminal-Bench v2": 0.820224719101124,
+      "SWE-Atlas-QnA": 0.454301075268817
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (xhigh)",
+    "displayLabel": "Codex - GPT-5.6 Terra (xhigh)",
     "hostModelSlug": "openai_gpt-5-6-terra",
     "provider": "openai",
     "perf": {
-      "Index": 0.6042010361726687,
+      "Index": 0.5602917313962741,
+      "DeepSWE": 0.584070796460177,
+      "Terminal-Bench v2": 0.771535580524344,
+      "SWE-Atlas-QnA": 0.325268817204301
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (medium)",
+    "displayLabel": "Codex - GPT-5.6 Terra (medium)",
+    "hostModelSlug": "openai_gpt-5-6-terra",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.4804969202427884,
+      "DeepSWE": 0.457227138643068,
+      "Terminal-Bench v2": 0.696629213483146,
+      "SWE-Atlas-QnA": 0.287634408602151
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (low)",
+    "displayLabel": "Codex - GPT-5.6 Luna (low)",
+    "hostModelSlug": "openai_gpt-5-6-luna",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.250636604330228,
+      "DeepSWE": 0.103244837758112,
+      "Terminal-Bench v2": 0.49812734082397,
+      "SWE-Atlas-QnA": 0.150537634408602
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Qwen3.8 Max",
+    "displayLabel": "Claude Code - Qwen3.8 Max",
+    "hostModelSlug": "alibaba_cloud_qwen3-8-max-public",
+    "provider": "alibaba_cloud",
+    "perf": {
+      "Index": 0.6131027159527611,
+      "DeepSWE": 0.519174041297935,
+      "Terminal-Bench v2": 0.838951310861423,
+      "SWE-Atlas-QnA": 0.481182795698925
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (xhigh)",
+    "displayLabel": "Codex - GPT-5.6 Sol (xhigh)",
+    "hostModelSlug": "openai_gpt-5-6-sol",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.633388342362512,
       "DeepSWE": 0.669616519174041,
+      "Terminal-Bench v2": 0.797752808988764,
+      "SWE-Atlas-QnA": 0.432795698924731
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (none)",
+    "displayLabel": "Codex - GPT-5.6 Sol (none)",
+    "hostModelSlug": "openai_gpt-5-6-sol",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.43368819235732675,
+      "DeepSWE": 0.353982300884956,
+      "Terminal-Bench v2": 0.602996254681648,
+      "SWE-Atlas-QnA": 0.344086021505376
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.8 (low)",
+    "displayLabel": "Claude Code - Opus 4.8 (low)",
+    "hostModelSlug": "anthropic_claude-opus-4-8",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.4904379267565557,
+      "DeepSWE": 0.410029498525074,
+      "Terminal-Bench v2": 0.779026217228464,
+      "SWE-Atlas-QnA": 0.282258064516129
+    }
+  },
+  {
+    "agent": "Opencode",
+    "model": "Opus 4.7 (medium)",
+    "displayLabel": "Opencode - Opus 4.7 (medium)",
+    "hostModelSlug": "anthropic_claude-opus-4-7",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.5127556084440553,
+      "DeepSWE": 0.395280235988201,
       "Terminal-Bench v2": 0.782771535580524,
+      "SWE-Atlas-QnA": 0.360215053763441
+    }
+  },
+  {
+    "agent": "Opencode",
+    "model": "Muse Spark 1.2 (xhigh)",
+    "displayLabel": "Opencode - Muse Spark 1.2 (xhigh)",
+    "hostModelSlug": "meta_spiffy-blimp350",
+    "provider": "meta",
+    "perf": {
+      "Index": 0.5888788742875287,
+      "DeepSWE": 0.528023598820059,
+      "Terminal-Bench v2": 0.797752808988764,
+      "SWE-Atlas-QnA": 0.440860215053763
+    }
+  },
+  {
+    "agent": "Opencode",
+    "model": "Gemini 3.6 Flash (high)",
+    "displayLabel": "Opencode - Gemini 3.6 Flash (high)",
+    "hostModelSlug": "google_gemini-3-6-flash_ai-studio",
+    "provider": "google",
+    "perf": {
+      "Index": 0.4724127134829677,
+      "DeepSWE": 0.412979351032448,
+      "Terminal-Bench v2": 0.786516853932584,
+      "SWE-Atlas-QnA": 0.217741935483871
+    }
+  },
+  {
+    "agent": "Cursor CLI",
+    "model": "Opus 4.7 (medium)",
+    "displayLabel": "Cursor CLI - Opus 4.7 (medium)",
+    "hostModelSlug": "anthropic_claude-opus-4-7",
+    "provider": "cursor",
+    "perf": {
+      "Index": 0.46655408258945535,
+      "DeepSWE": 0.315634218289086,
+      "Terminal-Bench v2": 0.745318352059925,
+      "SWE-Atlas-QnA": 0.338709677419355
+    }
+  },
+  {
+    "agent": "Devin CLI",
+    "model": "SWE-1.7 Lightning Max",
+    "displayLabel": "Devin CLI - SWE-1.7 Lightning Max",
+    "hostModelSlug": "cognition_swe-1-7-lightning",
+    "provider": "cognition",
+    "perf": {
+      "Index": 0.5221389513465003,
+      "DeepSWE": 0.404129793510324,
+      "Terminal-Bench v2": 0.794007490636704,
+      "SWE-Atlas-QnA": 0.368279569892473
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.8 (high)",
+    "displayLabel": "Claude Code - Opus 4.8 (high)",
+    "hostModelSlug": "anthropic_claude-opus-4-8_api-key",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.5757636668124311,
+      "DeepSWE": 0.516224188790561,
+      "Terminal-Bench v2": 0.823970037453184,
+      "SWE-Atlas-QnA": 0.387096774193548
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (none)",
+    "displayLabel": "Codex - GPT-5.6 Luna (none)",
+    "hostModelSlug": "openai_gpt-5-6-luna",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.19098709043042467,
+      "DeepSWE": 0.0648967551622419,
+      "Terminal-Bench v2": 0.333333333333333,
+      "SWE-Atlas-QnA": 0.174731182795699
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Qwen3.7 Plus (thinking)",
+    "displayLabel": "Claude Code - Qwen3.7 Plus (thinking)",
+    "hostModelSlug": "alibaba_cloud_qwen3-7-plus",
+    "provider": "alibaba_cloud",
+    "perf": {
+      "Index": 0.3812184526692477,
+      "DeepSWE": 0.191740412979351,
+      "Terminal-Bench v2": 0.715355805243446,
+      "SWE-Atlas-QnA": 0.236559139784946
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (high)",
+    "displayLabel": "Codex - GPT-5.6 Luna (high)",
+    "hostModelSlug": "openai_gpt-5-6-luna",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.516945881593198,
+      "DeepSWE": 0.533923303834808,
+      "Terminal-Bench v2": 0.726591760299625,
+      "SWE-Atlas-QnA": 0.290322580645161
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (none)",
+    "displayLabel": "Codex - GPT-5.6 Terra (none)",
+    "hostModelSlug": "openai_gpt-5-6-terra",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.23091968966853066,
+      "DeepSWE": 0.132743362831858,
+      "Terminal-Bench v2": 0.374531835205992,
+      "SWE-Atlas-QnA": 0.185483870967742
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (low)",
+    "displayLabel": "Codex - GPT-5.6 Terra (low)",
+    "hostModelSlug": "openai_gpt-5-6-terra",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.3864628427996264,
+      "DeepSWE": 0.297935103244838,
+      "Terminal-Bench v2": 0.632958801498127,
+      "SWE-Atlas-QnA": 0.228494623655914
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 5 (low)",
+    "displayLabel": "Claude Code - Opus 5 (low)",
+    "hostModelSlug": "anthropic_claude-opus-5",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.5940064571013324,
+      "DeepSWE": 0.569321533923304,
+      "Terminal-Bench v2": 0.820224719101123,
+      "SWE-Atlas-QnA": 0.39247311827957
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.5 (medium)",
+    "displayLabel": "Codex - GPT-5.5 (medium)",
+    "hostModelSlug": "openai_gpt-5-5",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.5531133827505798,
+      "DeepSWE": 0.566371681415929,
+      "Terminal-Bench v2": 0.786516853932584,
+      "SWE-Atlas-QnA": 0.306451612903226
+    }
+  },
+  {
+    "agent": "Cursor CLI",
+    "model": "GPT-5.5 (medium)",
+    "displayLabel": "Cursor CLI - GPT-5.5 (medium)",
+    "hostModelSlug": "openai_gpt-5-5-medium",
+    "provider": "cursor",
+    "perf": {
+      "Index": 0.4708693600598457,
+      "DeepSWE": 0.371681415929204,
+      "Terminal-Bench v2": 0.764044943820225,
+      "SWE-Atlas-QnA": 0.276881720430108
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Sonnet 4.6 (medium)",
+    "displayLabel": "Claude Code - Sonnet 4.6 (medium)",
+    "hostModelSlug": "anthropic_claude-sonnet-4-6",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.38649313607776203,
+      "DeepSWE": 0.289085545722714,
+      "Terminal-Bench v2": 0.674157303370787,
+      "SWE-Atlas-QnA": 0.196236559139785
+    }
+  },
+  {
+    "agent": "Opencode",
+    "model": "Muse Spark 1.1 (xhigh)",
+    "displayLabel": "Opencode - Muse Spark 1.1 (xhigh)",
+    "hostModelSlug": "meta_super-nova",
+    "provider": "meta",
+    "perf": {
+      "Index": 0.5492139250715367,
+      "DeepSWE": 0.542772861356932,
+      "Terminal-Bench v2": 0.771535580524345,
+      "SWE-Atlas-QnA": 0.333333333333333
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (medium)",
+    "displayLabel": "Codex - GPT-5.6 Sol (medium)",
+    "hostModelSlug": "openai_gpt-5-6-sol",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.616195748748264,
+      "DeepSWE": 0.640117994100295,
+      "Terminal-Bench v2": 0.805243445692884,
+      "SWE-Atlas-QnA": 0.403225806451613
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 4.8 (xhigh)",
+    "displayLabel": "Claude Code - Opus 4.8 (xhigh)",
+    "hostModelSlug": "anthropic_claude-opus-4-8",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.590718121759733,
+      "DeepSWE": 0.513274336283186,
+      "Terminal-Bench v2": 0.831460674157303,
+      "SWE-Atlas-QnA": 0.42741935483871
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.5 (xhigh)",
+    "displayLabel": "Codex - GPT-5.5 (xhigh)",
+    "hostModelSlug": "openai_gpt-5-5",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.6103327520587847,
+      "DeepSWE": 0.64306784660767,
+      "Terminal-Bench v2": 0.827715355805243,
       "SWE-Atlas-QnA": 0.360215053763441
     }
   },
@@ -222,470 +612,93 @@
   },
   {
     "agent": "Codex",
-    "model": "GPT-5.5 (xhigh)",
-    "displayLabel": "Codex - GPT-5.5 (xhigh)",
-    "hostModelSlug": "openai_gpt-5-5",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.6103327520587847,
-      "DeepSWE": 0.64306784660767,
-      "Terminal-Bench v2": 0.827715355805243,
-      "SWE-Atlas-QnA": 0.360215053763441
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Opus 4.8 (xhigh)",
-    "displayLabel": "Claude Code - Opus 4.8 (xhigh)",
-    "hostModelSlug": "anthropic_claude-opus-4-8",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.5907181217597334,
-      "DeepSWE": 0.513274336283186,
-      "Terminal-Bench v2": 0.831460674157304,
-      "SWE-Atlas-QnA": 0.42741935483871
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (medium)",
-    "displayLabel": "Codex - GPT-5.6 Sol (medium)",
-    "hostModelSlug": "openai_gpt-5-6-sol",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.616195748748264,
-      "DeepSWE": 0.640117994100295,
-      "Terminal-Bench v2": 0.805243445692884,
-      "SWE-Atlas-QnA": 0.403225806451613
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Luna (xhigh)",
-    "displayLabel": "Codex - GPT-5.6 Luna (xhigh)",
-    "hostModelSlug": "openai_gpt-5-6-luna",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.529584326329171,
-      "DeepSWE": 0.566371681415929,
-      "Terminal-Bench v2": 0.707865168539326,
-      "SWE-Atlas-QnA": 0.314516129032258
-    }
-  },
-  {
-    "agent": "Opencode",
-    "model": "Muse Spark 1.1 (xhigh)",
-    "displayLabel": "Opencode - Muse Spark 1.1 (xhigh)",
-    "hostModelSlug": "meta_super-nova",
-    "provider": "meta",
-    "perf": {
-      "Index": 0.5492139250715367,
-      "DeepSWE": 0.542772861356932,
-      "Terminal-Bench v2": 0.771535580524345,
-      "SWE-Atlas-QnA": 0.333333333333333
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Sonnet 4.6 (medium)",
-    "displayLabel": "Claude Code - Sonnet 4.6 (medium)",
-    "hostModelSlug": "anthropic_claude-sonnet-4-6",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.38649313607776203,
-      "DeepSWE": 0.289085545722714,
-      "Terminal-Bench v2": 0.674157303370787,
-      "SWE-Atlas-QnA": 0.196236559139785
-    }
-  },
-  {
-    "agent": "Cursor CLI",
-    "model": "GPT-5.5 (medium)",
-    "displayLabel": "Cursor CLI - GPT-5.5 (medium)",
-    "hostModelSlug": "openai_gpt-5-5-medium",
-    "provider": "cursor",
-    "perf": {
-      "Index": 0.4708693600598457,
-      "DeepSWE": 0.371681415929204,
-      "Terminal-Bench v2": 0.764044943820225,
-      "SWE-Atlas-QnA": 0.276881720430108
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.5 (medium)",
-    "displayLabel": "Codex - GPT-5.5 (medium)",
-    "hostModelSlug": "openai_gpt-5-5",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.5531133827505798,
-      "DeepSWE": 0.566371681415929,
-      "Terminal-Bench v2": 0.786516853932584,
-      "SWE-Atlas-QnA": 0.306451612903226
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Opus 5 (low)",
-    "displayLabel": "Claude Code - Opus 5 (low)",
-    "hostModelSlug": "anthropic_claude-opus-5",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.5940064571013326,
-      "DeepSWE": 0.569321533923304,
-      "Terminal-Bench v2": 0.820224719101124,
-      "SWE-Atlas-QnA": 0.39247311827957
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Terra (low)",
-    "displayLabel": "Codex - GPT-5.6 Terra (low)",
+    "model": "GPT-5.6 Terra (max)",
+    "displayLabel": "Codex - GPT-5.6 Terra (max)",
     "hostModelSlug": "openai_gpt-5-6-terra",
     "provider": "openai",
     "perf": {
-      "Index": 0.3864628427996264,
-      "DeepSWE": 0.297935103244838,
-      "Terminal-Bench v2": 0.632958801498127,
-      "SWE-Atlas-QnA": 0.228494623655914
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Terra (none)",
-    "displayLabel": "Codex - GPT-5.6 Terra (none)",
-    "hostModelSlug": "openai_gpt-5-6-terra",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.23091968966853066,
-      "DeepSWE": 0.132743362831858,
-      "Terminal-Bench v2": 0.374531835205992,
-      "SWE-Atlas-QnA": 0.185483870967742
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Luna (high)",
-    "displayLabel": "Codex - GPT-5.6 Luna (high)",
-    "hostModelSlug": "openai_gpt-5-6-luna",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.516945881593198,
-      "DeepSWE": 0.533923303834808,
-      "Terminal-Bench v2": 0.726591760299625,
-      "SWE-Atlas-QnA": 0.290322580645161
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Qwen3.7 Plus (thinking)",
-    "displayLabel": "Claude Code - Qwen3.7 Plus (thinking)",
-    "hostModelSlug": "alibaba_cloud_qwen3-7-plus",
-    "provider": "alibaba_cloud",
-    "perf": {
-      "Index": 0.3812184526692477,
-      "DeepSWE": 0.191740412979351,
-      "Terminal-Bench v2": 0.715355805243446,
-      "SWE-Atlas-QnA": 0.236559139784946
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Luna (none)",
-    "displayLabel": "Codex - GPT-5.6 Luna (none)",
-    "hostModelSlug": "openai_gpt-5-6-luna",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.19098709043042467,
-      "DeepSWE": 0.0648967551622419,
-      "Terminal-Bench v2": 0.333333333333333,
-      "SWE-Atlas-QnA": 0.174731182795699
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Opus 4.8 (high)",
-    "displayLabel": "Claude Code - Opus 4.8 (high)",
-    "hostModelSlug": "anthropic_claude-opus-4-8_api-key",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.5757636668124306,
-      "DeepSWE": 0.516224188790561,
-      "Terminal-Bench v2": 0.823970037453183,
-      "SWE-Atlas-QnA": 0.387096774193548
-    }
-  },
-  {
-    "agent": "Devin CLI",
-    "model": "SWE-1.7 Lightning Max",
-    "displayLabel": "Devin CLI - SWE-1.7 Lightning Max",
-    "hostModelSlug": "cognition_swe-1-7-lightning",
-    "provider": "cognition",
-    "perf": {
-      "Index": 0.5221389513465007,
-      "DeepSWE": 0.404129793510325,
-      "Terminal-Bench v2": 0.794007490636704,
-      "SWE-Atlas-QnA": 0.368279569892473
-    }
-  },
-  {
-    "agent": "Cursor CLI",
-    "model": "Opus 4.7 (medium)",
-    "displayLabel": "Cursor CLI - Opus 4.7 (medium)",
-    "hostModelSlug": "anthropic_claude-opus-4-7",
-    "provider": "cursor",
-    "perf": {
-      "Index": 0.466554082589455,
-      "DeepSWE": 0.315634218289085,
-      "Terminal-Bench v2": 0.745318352059925,
-      "SWE-Atlas-QnA": 0.338709677419355
-    }
-  },
-  {
-    "agent": "Opencode",
-    "model": "Gemini 3.6 Flash (high)",
-    "displayLabel": "Opencode - Gemini 3.6 Flash (high)",
-    "hostModelSlug": "google_gemini-3-6-flash_ai-studio",
-    "provider": "google",
-    "perf": {
-      "Index": 0.4724127134829677,
-      "DeepSWE": 0.412979351032448,
-      "Terminal-Bench v2": 0.786516853932584,
-      "SWE-Atlas-QnA": 0.217741935483871
-    }
-  },
-  {
-    "agent": "Opencode",
-    "model": "Muse Spark 1.2 (xhigh)",
-    "displayLabel": "Opencode - Muse Spark 1.2 (xhigh)",
-    "hostModelSlug": "meta_spiffy-blimp350",
-    "provider": "meta",
-    "perf": {
-      "Index": 0.5888788742875287,
-      "DeepSWE": 0.528023598820059,
-      "Terminal-Bench v2": 0.797752808988764,
-      "SWE-Atlas-QnA": 0.440860215053763
-    }
-  },
-  {
-    "agent": "Opencode",
-    "model": "Opus 4.7 (medium)",
-    "displayLabel": "Opencode - Opus 4.7 (medium)",
-    "hostModelSlug": "anthropic_claude-opus-4-7",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.5127556084440553,
-      "DeepSWE": 0.395280235988201,
+      "Index": 0.6042010361726687,
+      "DeepSWE": 0.669616519174041,
       "Terminal-Bench v2": 0.782771535580524,
       "SWE-Atlas-QnA": 0.360215053763441
     }
   },
   {
     "agent": "Claude Code",
-    "model": "Opus 4.8 (low)",
-    "displayLabel": "Claude Code - Opus 4.8 (low)",
-    "hostModelSlug": "anthropic_claude-opus-4-8",
-    "provider": "anthropic",
+    "model": "DeepSeek V4 Pro (high)",
+    "displayLabel": "Claude Code - DeepSeek V4 Pro (high)",
+    "hostModelSlug": "deepseek_deepseek-v4-pro-1m",
+    "provider": "deepseek",
     "perf": {
-      "Index": 0.4904379267565557,
-      "DeepSWE": 0.410029498525074,
-      "Terminal-Bench v2": 0.779026217228464,
-      "SWE-Atlas-QnA": 0.282258064516129
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (none)",
-    "displayLabel": "Codex - GPT-5.6 Sol (none)",
-    "hostModelSlug": "openai_gpt-5-6-sol",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.43368819235732675,
-      "DeepSWE": 0.353982300884956,
-      "Terminal-Bench v2": 0.602996254681648,
-      "SWE-Atlas-QnA": 0.344086021505376
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (xhigh)",
-    "displayLabel": "Codex - GPT-5.6 Sol (xhigh)",
-    "hostModelSlug": "openai_gpt-5-6-sol",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.633388342362512,
-      "DeepSWE": 0.669616519174041,
-      "Terminal-Bench v2": 0.797752808988764,
-      "SWE-Atlas-QnA": 0.432795698924731
+      "Index": 0.32828166191062214,
+      "DeepSWE": 0.0855457227138643,
+      "Terminal-Bench v2": 0.700374531835206,
+      "SWE-Atlas-QnA": 0.198924731182796
     }
   },
   {
     "agent": "Claude Code",
-    "model": "Qwen3.8 Max",
-    "displayLabel": "Claude Code - Qwen3.8 Max",
-    "hostModelSlug": "alibaba_cloud_qwen3-8-max-public",
-    "provider": "alibaba_cloud",
-    "perf": {
-      "Index": 0.6131027159527611,
-      "DeepSWE": 0.519174041297935,
-      "Terminal-Bench v2": 0.838951310861423,
-      "SWE-Atlas-QnA": 0.481182795698925
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Luna (low)",
-    "displayLabel": "Codex - GPT-5.6 Luna (low)",
-    "hostModelSlug": "openai_gpt-5-6-luna",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.250636604330228,
-      "DeepSWE": 0.103244837758112,
-      "Terminal-Bench v2": 0.49812734082397,
-      "SWE-Atlas-QnA": 0.150537634408602
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Terra (medium)",
-    "displayLabel": "Codex - GPT-5.6 Terra (medium)",
-    "hostModelSlug": "openai_gpt-5-6-terra",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.4804969202427884,
-      "DeepSWE": 0.457227138643068,
-      "Terminal-Bench v2": 0.696629213483146,
-      "SWE-Atlas-QnA": 0.287634408602151
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Terra (xhigh)",
-    "displayLabel": "Codex - GPT-5.6 Terra (xhigh)",
-    "hostModelSlug": "openai_gpt-5-6-terra",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.5602917313962741,
-      "DeepSWE": 0.584070796460177,
-      "Terminal-Bench v2": 0.771535580524344,
-      "SWE-Atlas-QnA": 0.325268817204301
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (high)",
-    "displayLabel": "Codex - GPT-5.6 Sol (high)",
-    "hostModelSlug": "openai_gpt-5-6-sol",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.6411644486641199,
-      "DeepSWE": 0.648967551622419,
-      "Terminal-Bench v2": 0.820224719101124,
-      "SWE-Atlas-QnA": 0.454301075268817
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Opus 4.8 (max)",
-    "displayLabel": "Claude Code - Opus 4.8 (max)",
-    "hostModelSlug": "anthropic_claude-opus-4-8",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.6214051234130329,
-      "DeepSWE": 0.557522123893805,
-      "Terminal-Bench v2": 0.838951310861423,
-      "SWE-Atlas-QnA": 0.467741935483871
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Opus 4.8 (medium)",
-    "displayLabel": "Claude Code - Opus 4.8 (medium)",
-    "hostModelSlug": "anthropic_claude-opus-4-8",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.5576883805320427,
-      "DeepSWE": 0.492625368731563,
-      "Terminal-Bench v2": 0.820224719101124,
-      "SWE-Atlas-QnA": 0.360215053763441
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Sol (low)",
-    "displayLabel": "Codex - GPT-5.6 Sol (low)",
-    "hostModelSlug": "openai_gpt-5-6-sol",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.5523451808562164,
-      "DeepSWE": 0.533923303834808,
-      "Terminal-Bench v2": 0.779026217228465,
-      "SWE-Atlas-QnA": 0.344086021505376
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Opus 4.7 (medium)",
-    "displayLabel": "Claude Code - Opus 4.7 (medium)",
-    "hostModelSlug": "anthropic_claude-opus-4-7",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.423892771774363,
-      "DeepSWE": 0.274336283185841,
-      "Terminal-Bench v2": 0.771535580524345,
-      "SWE-Atlas-QnA": 0.225806451612903
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "GLM-5.1",
-    "displayLabel": "Claude Code - GLM-5.1",
-    "hostModelSlug": "friendliai_glm-5-1",
-    "provider": "friendliai",
-    "perf": {
-      "Index": 0.36910327976412566,
-      "DeepSWE": 0.185840707964602,
-      "Terminal-Bench v2": 0.674157303370786,
-      "SWE-Atlas-QnA": 0.247311827956989
-    }
-  },
-  {
-    "agent": "Antigravity SDK v0.1.8",
-    "model": "Gemini 3.7 Flash (high)",
-    "displayLabel": "Antigravity SDK - Gemini 3.7 Flash (high)",
-    "hostModelSlug": "google_andwise_ai-studio",
-    "provider": "google",
-    "perf": {
-      "Index": 0.5657152973570364,
-      "DeepSWE": 0.56047197640118,
-      "Terminal-Bench v2": 0.865168539325843,
-      "SWE-Atlas-QnA": 0.271505376344086
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Opus 5 (max)",
-    "displayLabel": "Claude Code - Opus 5 (max)",
+    "model": "Opus 5 (high)",
+    "displayLabel": "Claude Code - Opus 5 (high)",
     "hostModelSlug": "anthropic_claude-opus-5",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6702814566291138,
-      "DeepSWE": 0.631268436578171,
-      "Terminal-Bench v2": 0.887640449438202,
+      "Index": 0.6561729860226817,
+      "DeepSWE": 0.607669616519174,
+      "Terminal-Bench v2": 0.868913857677903,
+      "SWE-Atlas-QnA": 0.491935483870968
+    }
+  },
+  {
+    "agent": "Cursor CLI",
+    "model": "Composer 2.5",
+    "displayLabel": "Cursor CLI - Composer 2.5",
+    "hostModelSlug": "cursor_composer-2-5",
+    "provider": "cursor",
+    "perf": {
+      "Index": 0.3830075380367747,
+      "DeepSWE": 0.15929203539823,
+      "Terminal-Bench v2": 0.6779026217228465,
+      "SWE-Atlas-QnA": 0.3118279569892475
+    }
+  },
+  {
+    "agent": "Gemini CLI",
+    "model": "Gemini 3.1 Pro (high)",
+    "displayLabel": "Gemini CLI - Gemini 3.1 Pro (high)",
+    "hostModelSlug": "google_gemini-3-1-pro_ai-studio",
+    "provider": "gemini",
+    "perf": {
+      "Index": 0.3293046837328304,
+      "DeepSWE": 0.141592920353982,
+      "Terminal-Bench v2": 0.760299625468165,
+      "SWE-Atlas-QnA": 0.0860215053763441
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "DeepSeek V4 Pro 0813 (max)",
+    "displayLabel": "Codex - DeepSeek V4 Pro 0813 (max)",
+    "hostModelSlug": "deepseek_deepseek-v4-pro-0813",
+    "provider": "deepseek",
+    "perf": {
+      "Index": 0.42779695164088,
+      "DeepSWE": 0.162241887905605,
+      "Terminal-Bench v2": 0.629213483146067,
       "SWE-Atlas-QnA": 0.491935483870968
     }
   },
   {
     "agent": "Codex",
-    "model": "GPT-5.6 Luna (medium)",
-    "displayLabel": "Codex - GPT-5.6 Luna (medium)",
-    "hostModelSlug": "openai_gpt-5-6-luna",
+    "model": "GPT-5.6 Terra (high)",
+    "displayLabel": "Codex - GPT-5.6 Terra (high)",
+    "hostModelSlug": "openai_gpt-5-6-terra",
     "provider": "openai",
     "perf": {
-      "Index": 0.41966997790016236,
-      "DeepSWE": 0.365781710914454,
-      "Terminal-Bench v2": 0.621722846441947,
-      "SWE-Atlas-QnA": 0.271505376344086
+      "Index": 0.5464647209828707,
+      "DeepSWE": 0.604719764011799,
+      "Terminal-Bench v2": 0.722846441947566,
+      "SWE-Atlas-QnA": 0.311827956989247
     }
   },
   {
@@ -699,19 +712,6 @@
       "DeepSWE": 0.40117994100295,
       "Terminal-Bench v2": 0.775280898876405,
       "SWE-Atlas-QnA": 0.370967741935484
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Kimi K2.6",
-    "displayLabel": "Claude Code - Kimi K2.6",
-    "hostModelSlug": "moonshot_kimi-k2-6",
-    "provider": "moonshotai",
-    "perf": {
-      "Index": 0.3388925953605663,
-      "DeepSWE": 0.165191740412979,
-      "Terminal-Bench v2": 0.692883895131086,
-      "SWE-Atlas-QnA": 0.158602150537634
     }
   },
   {
