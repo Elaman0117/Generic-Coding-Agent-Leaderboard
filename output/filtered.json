@@ -4,18 +4,18 @@
       "Opencode": 0.5962784529614886,
       "Antigravity SDK v0.1.8": 0.5657152973570364
     },
+    "GPT-5.5 (medium)": {
+      "Cursor CLI": 0.47086936005984537,
+      "Codex": 0.5531133827505798
+    },
     "Opus 4.7 (medium)": {
-      "Claude Code": 0.4238927717743627,
+      "Cursor CLI": 0.46655408258945535,
       "Opencode": 0.5127556084440553,
-      "Cursor CLI": 0.46655408258945535
+      "Claude Code": 0.423892771774363
     },
     "Muse Spark 1.2 (xhigh)": {
       "Opencode": 0.5888788742875287,
       "Muse Code": 0.6164044159758908
-    },
-    "GPT-5.5 (medium)": {
-      "Codex": 0.5531133827505798,
-      "Cursor CLI": 0.4708693600598457
     }
   },
   "DeepSWE": {
@@ -23,18 +23,18 @@
       "Opencode": 0.572271386430678,
       "Antigravity SDK v0.1.8": 0.56047197640118
     },
+    "GPT-5.5 (medium)": {
+      "Cursor CLI": 0.371681415929203,
+      "Codex": 0.566371681415929
+    },
     "Opus 4.7 (medium)": {
-      "Claude Code": 0.274336283185841,
+      "Cursor CLI": 0.315634218289086,
       "Opencode": 0.395280235988201,
-      "Cursor CLI": 0.315634218289086
+      "Claude Code": 0.274336283185841
     },
     "Muse Spark 1.2 (xhigh)": {
       "Opencode": 0.528023598820059,
       "Muse Code": 0.581120943952802
-    },
-    "GPT-5.5 (medium)": {
-      "Codex": 0.566371681415929,
-      "Cursor CLI": 0.371681415929204
     }
   },
   "Terminal-Bench v2": {
@@ -42,18 +42,18 @@
       "Opencode": 0.910112359550562,
       "Antigravity SDK v0.1.8": 0.865168539325843
     },
+    "GPT-5.5 (medium)": {
+      "Cursor CLI": 0.764044943820225,
+      "Codex": 0.786516853932584
+    },
     "Opus 4.7 (medium)": {
-      "Claude Code": 0.771535580524344,
+      "Cursor CLI": 0.745318352059925,
       "Opencode": 0.782771535580524,
-      "Cursor CLI": 0.745318352059925
+      "Claude Code": 0.771535580524345
     },
     "Muse Spark 1.2 (xhigh)": {
       "Opencode": 0.797752808988764,
       "Muse Code": 0.816479400749064
-    },
-    "GPT-5.5 (medium)": {
-      "Codex": 0.786516853932584,
-      "Cursor CLI": 0.764044943820225
     }
   },
   "SWE-Atlas-QnA": {
@@ -61,18 +61,18 @@
       "Opencode": 0.306451612903226,
       "Antigravity SDK v0.1.8": 0.271505376344086
     },
+    "GPT-5.5 (medium)": {
+      "Cursor CLI": 0.276881720430108,
+      "Codex": 0.306451612903226
+    },
     "Opus 4.7 (medium)": {
-      "Claude Code": 0.225806451612903,
+      "Cursor CLI": 0.338709677419355,
       "Opencode": 0.360215053763441,
-      "Cursor CLI": 0.338709677419355
+      "Claude Code": 0.225806451612903
     },
     "Muse Spark 1.2 (xhigh)": {
       "Opencode": 0.440860215053763,
       "Muse Code": 0.451612903225806
-    },
-    "GPT-5.5 (medium)": {
-      "Codex": 0.306451612903226,
-      "Cursor CLI": 0.276881720430108
     }
   }
 }
