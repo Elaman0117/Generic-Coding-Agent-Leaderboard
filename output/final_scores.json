@@ -14,7 +14,7 @@
       "Terminal-Bench v2": "higher_is_better",
       "SWE-Atlas-QnA": "higher_is_better"
     },
-    "total_combinations": 57,
+    "total_combinations": 62,
     "surviving_models": [
       "GPT-5.5 (medium)",
       "Gemini 3.7 Flash (high)",
@@ -32,12 +32,12 @@
     "total_observations": 24
   },
   "scores": {
-    "Antigravity SDK v0.1.8": 0.8649215190850533,
+    "Antigravity SDK v0.1.8": 0.8649215190850527,
     "Claude Code": 0.7197766320043464,
     "Codex": 1.0,
     "Cursor CLI": 0.8273554128689828,
-    "Muse Code": 0.9638170190067956,
-    "Opencode": 0.9189788108634227
+    "Muse Code": 0.963817019006795,
+    "Opencode": 0.918978810863422
   },
   "pairs": [
     {
@@ -61,11 +61,11 @@
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.7833092474677206,
+      "mean_ratio": 0.7833092474677211,
       "weight": 4,
-      "fit_ratio": 0.7832352862718165,
+      "fit_ratio": 0.783235286271817,
       "abs_err": -7.396119590408201e-05,
-      "rel_err_pct": 0.009442145122527727
+      "rel_err_pct": 0.00944214512252772
     },
     {
       "frontend_a": "Codex",
@@ -79,11 +79,11 @@
     {
       "frontend_a": "Cursor CLI",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.9002136752129852,
+      "mean_ratio": 0.9002136752129859,
       "weight": 4,
-      "fit_ratio": 0.9002986827211441,
-      "abs_err": 8.500750815887415e-05,
-      "rel_err_pct": 0.009443036747776785
+      "fit_ratio": 0.9002986827211447,
+      "abs_err": 8.500750815876312e-05,
+      "rel_err_pct": 0.009443036747764444
     },
     {
       "frontend_a": "Muse Code",
