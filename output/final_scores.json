@@ -32,12 +32,12 @@
     "total_observations": 24
   },
   "scores": {
-    "Antigravity SDK v0.1.8": 0.8649215190850527,
-    "Claude Code": 0.7197766320043464,
+    "Antigravity SDK v0.1.8": 0.8649215190850542,
+    "Claude Code": 0.7197766320043466,
     "Codex": 1.0,
-    "Cursor CLI": 0.8273554128689828,
-    "Muse Code": 0.963817019006795,
-    "Opencode": 0.918978810863422
+    "Cursor CLI": 0.8273554128689836,
+    "Muse Code": 0.9638170190067966,
+    "Opencode": 0.9189788108634236
   },
   "pairs": [
     {
@@ -45,45 +45,45 @@
       "frontend_b": "Opencode",
       "mean_ratio": 0.9411767810755287,
       "weight": 4,
-      "fit_ratio": 0.9411767810755287,
-      "abs_err": 0.0,
-      "rel_err_pct": 0.0
+      "fit_ratio": 0.9411767810755288,
+      "abs_err": 1.1102230246251565e-16,
+      "rel_err_pct": 1.1796115745189234e-14
     },
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Cursor CLI",
-      "mean_ratio": 0.869890567530698,
+      "mean_ratio": 0.8698905675306975,
       "weight": 4,
-      "fit_ratio": 0.8699727116166552,
-      "abs_err": 8.214408595719203e-05,
-      "rel_err_pct": 0.009443036747756572
+      "fit_ratio": 0.8699727116166548,
+      "abs_err": 8.214408595730305e-05,
+      "rel_err_pct": 0.009443036747769341
     },
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.7833092474677211,
+      "mean_ratio": 0.7833092474677201,
       "weight": 4,
-      "fit_ratio": 0.783235286271817,
-      "abs_err": -7.396119590408201e-05,
-      "rel_err_pct": 0.00944214512252772
+      "fit_ratio": 0.7832352862718159,
+      "abs_err": -7.396119590419303e-05,
+      "rel_err_pct": 0.009442145122541904
     },
     {
       "frontend_a": "Codex",
       "frontend_b": "Cursor CLI",
-      "mean_ratio": 1.2086704026415267,
+      "mean_ratio": 1.2086704026415256,
       "weight": 4,
-      "fit_ratio": 1.2086704026415267,
+      "fit_ratio": 1.2086704026415256,
       "abs_err": 0.0,
       "rel_err_pct": 0.0
     },
     {
       "frontend_a": "Cursor CLI",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.9002136752129859,
+      "mean_ratio": 0.9002136752129852,
       "weight": 4,
-      "fit_ratio": 0.9002986827211447,
+      "fit_ratio": 0.900298682721144,
       "abs_err": 8.500750815876312e-05,
-      "rel_err_pct": 0.009443036747764444
+      "rel_err_pct": 0.009443036747764453
     },
     {
       "frontend_a": "Muse Code",
