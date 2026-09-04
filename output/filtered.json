@@ -11,7 +11,7 @@
     },
     "Muse Spark 1.2 (xhigh)": {
       "Opencode": 0.5888788742875287,
-      "Muse Code": 0.6164044159758908
+      "Muse Code": 0.6164044159758904
     },
     "Gemini 3.7 Flash (high)": {
       "Antigravity SDK v0.1.8": 0.5657152973570364,
@@ -19,7 +19,7 @@
     },
     "GPT-5.5 (medium)": {
       "Codex": 0.5531133827505798,
-      "Cursor CLI": 0.47086936005984537
+      "Cursor CLI": 0.4708693600598457
     }
   },
   "DeepSWE": {
@@ -42,7 +42,7 @@
     },
     "GPT-5.5 (medium)": {
       "Codex": 0.566371681415929,
-      "Cursor CLI": 0.371681415929203
+      "Cursor CLI": 0.371681415929204
     }
   },
   "Terminal-Bench v2": {
@@ -57,7 +57,7 @@
     },
     "Muse Spark 1.2 (xhigh)": {
       "Opencode": 0.797752808988764,
-      "Muse Code": 0.816479400749064
+      "Muse Code": 0.816479400749063
     },
     "Gemini 3.7 Flash (high)": {
       "Antigravity SDK v0.1.8": 0.865168539325843,

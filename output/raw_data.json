@@ -1,5 +1,31 @@
 [
   {
+    "agent": "Codex",
+    "model": "DeepSeek V4 Flash 0731 (max)",
+    "displayLabel": "Codex - DeepSeek V4 Flash 0731 (max)",
+    "hostModelSlug": "deepseek_deepseek-v4-flash-0731",
+    "provider": "deepseek",
+    "perf": {
+      "Index": 0.49757600316190503,
+      "DeepSWE": 0.427728613569321,
+      "Terminal-Bench v2": 0.677902621722846,
+      "SWE-Atlas-QnA": 0.387096774193548
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "Opus 5 (xhigh)",
+    "displayLabel": "Claude Code - Opus 5 (xhigh)",
+    "hostModelSlug": "anthropic_claude-opus-5",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.6814975428587517,
+      "DeepSWE": 0.604719764011799,
+      "Terminal-Bench v2": 0.891385767790262,
+      "SWE-Atlas-QnA": 0.548387096774194
+    }
+  },
+  {
     "agent": "Opencode",
     "model": "Gemini 3.8 Flash (high)",
     "displayLabel": "Opencode - Gemini 3.8 Flash (high)",
@@ -27,54 +53,15 @@
   },
   {
     "agent": "Codex",
-    "model": "GPT-5.6 Sol (max)",
-    "displayLabel": "Codex - GPT-5.6 Sol (max)",
-    "hostModelSlug": "openai_gpt-5-6-sol",
+    "model": "GPT-6 Astra (max)",
+    "displayLabel": "Codex - GPT-6 Astra (max)",
+    "hostModelSlug": "openai_vega-alpha",
     "provider": "openai",
     "perf": {
-      "Index": 0.6505240024334411,
-      "DeepSWE": 0.687315634218289,
-      "Terminal-Bench v2": 0.831460674157303,
-      "SWE-Atlas-QnA": 0.432795698924731
-    }
-  },
-  {
-    "agent": "Muse Code 1.0.2 RC",
-    "model": "Muse Spark 1.3 (xhigh)",
-    "displayLabel": "Muse Code - Muse Spark 1.3 (xhigh)",
-    "hostModelSlug": "meta_joyful-jello138",
-    "provider": "meta",
-    "perf": {
-      "Index": 0.6417750364143022,
+      "Index": 0.6697139031534587,
       "DeepSWE": 0.669616519174041,
-      "Terminal-Bench v2": 0.820224719101124,
-      "SWE-Atlas-QnA": 0.435483870967742
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "Opus 5 (xhigh)",
-    "displayLabel": "Claude Code - Opus 5 (xhigh)",
-    "hostModelSlug": "anthropic_claude-opus-5",
-    "provider": "anthropic",
-    "perf": {
-      "Index": 0.6814975428587517,
-      "DeepSWE": 0.604719764011799,
-      "Terminal-Bench v2": 0.891385767790262,
-      "SWE-Atlas-QnA": 0.548387096774194
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "DeepSeek V4 Flash 0731 (max)",
-    "displayLabel": "Codex - DeepSeek V4 Flash 0731 (max)",
-    "hostModelSlug": "deepseek_deepseek-v4-flash-0731",
-    "provider": "deepseek",
-    "perf": {
-      "Index": 0.4975760031619057,
-      "DeepSWE": 0.427728613569322,
-      "Terminal-Bench v2": 0.677902621722847,
-      "SWE-Atlas-QnA": 0.387096774193548
+      "Terminal-Bench v2": 0.831460674157303,
+      "SWE-Atlas-QnA": 0.508064516129032
     }
   },
   {
@@ -104,6 +91,19 @@
     }
   },
   {
+    "agent": "Claude Code",
+    "model": "Fable 5.1 (max) (with fallback)",
+    "displayLabel": "Claude Code - Fable 5.1 (max) (with fallback)",
+    "hostModelSlug": "anthropic_claude-fable-5-1",
+    "provider": "anthropic",
+    "perf": {
+      "Index": 0.704307846707459,
+      "DeepSWE": 0.660766961651917,
+      "Terminal-Bench v2": 0.887640449438202,
+      "SWE-Atlas-QnA": 0.564516129032258
+    }
+  },
+  {
     "agent": "Cursor CLI",
     "model": "Composer 2.5 Fast",
     "displayLabel": "Cursor CLI - Composer 2.5 Fast",
@@ -117,6 +117,19 @@
     }
   },
   {
+    "agent": "Muse Code 1.0.2 RC",
+    "model": "Muse Spark 1.3 (xhigh)",
+    "displayLabel": "Muse Code - Muse Spark 1.3 (xhigh)",
+    "hostModelSlug": "meta_joyful-jello138",
+    "provider": "meta",
+    "perf": {
+      "Index": 0.6417750364143022,
+      "DeepSWE": 0.669616519174041,
+      "Terminal-Bench v2": 0.820224719101124,
+      "SWE-Atlas-QnA": 0.435483870967742
+    }
+  },
+  {
     "agent": "Claude Code",
     "model": "Fable 5 (low) (with fallback)",
     "displayLabel": "Claude Code - Fable 5 (low) (with fallback)",
@@ -127,6 +140,58 @@
       "DeepSWE": 0.59882005899705,
       "Terminal-Bench v2": 0.816479400749064,
       "SWE-Atlas-QnA": 0.341397849462366
+    }
+  },
+  {
+    "agent": "Muse Code 1.0.2 RC",
+    "model": "Muse Spark 1.3 (max)",
+    "displayLabel": "Muse Code - Muse Spark 1.3 (max)",
+    "hostModelSlug": "meta_goofy-glacier135",
+    "provider": "meta",
+    "perf": {
+      "Index": 0.6797281481220127,
+      "DeepSWE": 0.68141592920354,
+      "Terminal-Bench v2": 0.838951310861423,
+      "SWE-Atlas-QnA": 0.518817204301075
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (low)",
+    "displayLabel": "Codex - GPT-5.6 Terra (low)",
+    "hostModelSlug": "openai_gpt-5-6-terra",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.3864628427996264,
+      "DeepSWE": 0.297935103244838,
+      "Terminal-Bench v2": 0.632958801498127,
+      "SWE-Atlas-QnA": 0.228494623655914
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Terra (none)",
+    "displayLabel": "Codex - GPT-5.6 Terra (none)",
+    "hostModelSlug": "openai_gpt-5-6-terra",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.23091968966853066,
+      "DeepSWE": 0.132743362831858,
+      "Terminal-Bench v2": 0.374531835205992,
+      "SWE-Atlas-QnA": 0.185483870967742
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Luna (high)",
+    "displayLabel": "Codex - GPT-5.6 Luna (high)",
+    "hostModelSlug": "openai_gpt-5-6-luna",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.516945881593198,
+      "DeepSWE": 0.533923303834808,
+      "Terminal-Bench v2": 0.726591760299625,
+      "SWE-Atlas-QnA": 0.290322580645161
     }
   },
   {
@@ -162,8 +227,8 @@
     "hostModelSlug": "anthropic_claude-opus-4-8_api-key",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.5757636668124306,
-      "DeepSWE": 0.51622418879056,
+      "Index": 0.5757636668124311,
+      "DeepSWE": 0.516224188790561,
       "Terminal-Bench v2": 0.823970037453184,
       "SWE-Atlas-QnA": 0.387096774193548
     }
@@ -253,9 +318,9 @@
     "hostModelSlug": "anthropic_claude-opus-4-8",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.490437926756556,
+      "Index": 0.4904379267565557,
       "DeepSWE": 0.410029498525074,
-      "Terminal-Bench v2": 0.779026217228465,
+      "Terminal-Bench v2": 0.779026217228464,
       "SWE-Atlas-QnA": 0.282258064516129
     }
   },
@@ -267,8 +332,8 @@
     "provider": "anthropic",
     "perf": {
       "Index": 0.6601695603875117,
-      "DeepSWE": 0.651917404129794,
-      "Terminal-Bench v2": 0.868913857677902,
+      "DeepSWE": 0.651917404129793,
+      "Terminal-Bench v2": 0.868913857677903,
       "SWE-Atlas-QnA": 0.459677419354839
     }
   },
@@ -409,8 +474,8 @@
     "hostModelSlug": "anthropic_claude-opus-5",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.5916954363711078,
-      "DeepSWE": 0.442477876106194,
+      "Index": 0.591695436371108,
+      "DeepSWE": 0.442477876106195,
       "Terminal-Bench v2": 0.816479400749064,
       "SWE-Atlas-QnA": 0.516129032258065
     }
@@ -422,9 +487,9 @@
     "hostModelSlug": "openai_gpt-5-6-sol",
     "provider": "openai",
     "perf": {
-      "Index": 0.5523451808562164,
+      "Index": 0.5523451808562161,
       "DeepSWE": 0.533923303834808,
-      "Terminal-Bench v2": 0.779026217228465,
+      "Terminal-Bench v2": 0.779026217228464,
       "SWE-Atlas-QnA": 0.344086021505376
     }
   },
@@ -448,8 +513,8 @@
     "hostModelSlug": "anthropic_claude-fable-5",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6717276042685724,
-      "DeepSWE": 0.660766961651917,
+      "Index": 0.6717276042685727,
+      "DeepSWE": 0.660766961651918,
       "Terminal-Bench v2": 0.865168539325843,
       "SWE-Atlas-QnA": 0.489247311827957
     }
@@ -500,10 +565,23 @@
     "hostModelSlug": "openai_gpt-5-6-luna",
     "provider": "openai",
     "perf": {
-      "Index": 0.41966997790016236,
+      "Index": 0.4196699779001627,
       "DeepSWE": 0.365781710914454,
-      "Terminal-Bench v2": 0.621722846441947,
+      "Terminal-Bench v2": 0.621722846441948,
       "SWE-Atlas-QnA": 0.271505376344086
+    }
+  },
+  {
+    "agent": "Codex",
+    "model": "GPT-5.6 Sol (max)",
+    "displayLabel": "Codex - GPT-5.6 Sol (max)",
+    "hostModelSlug": "openai_gpt-5-6-sol",
+    "provider": "openai",
+    "perf": {
+      "Index": 0.6505240024334414,
+      "DeepSWE": 0.687315634218289,
+      "Terminal-Bench v2": 0.831460674157304,
+      "SWE-Atlas-QnA": 0.432795698924731
     }
   },
   {
@@ -533,67 +611,15 @@
     }
   },
   {
-    "agent": "Codex",
-    "model": "GPT-5.6 Luna (high)",
-    "displayLabel": "Codex - GPT-5.6 Luna (high)",
-    "hostModelSlug": "openai_gpt-5-6-luna",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.516945881593198,
-      "DeepSWE": 0.533923303834808,
-      "Terminal-Bench v2": 0.726591760299625,
-      "SWE-Atlas-QnA": 0.290322580645161
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Terra (none)",
-    "displayLabel": "Codex - GPT-5.6 Terra (none)",
-    "hostModelSlug": "openai_gpt-5-6-terra",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.23091968966853066,
-      "DeepSWE": 0.132743362831858,
-      "Terminal-Bench v2": 0.374531835205992,
-      "SWE-Atlas-QnA": 0.185483870967742
-    }
-  },
-  {
-    "agent": "Codex",
-    "model": "GPT-5.6 Terra (low)",
-    "displayLabel": "Codex - GPT-5.6 Terra (low)",
-    "hostModelSlug": "openai_gpt-5-6-terra",
-    "provider": "openai",
-    "perf": {
-      "Index": 0.3864628427996264,
-      "DeepSWE": 0.297935103244838,
-      "Terminal-Bench v2": 0.632958801498127,
-      "SWE-Atlas-QnA": 0.228494623655914
-    }
-  },
-  {
-    "agent": "Muse Code 1.0.2 RC",
-    "model": "Muse Spark 1.3 (max)",
-    "displayLabel": "Muse Code - Muse Spark 1.3 (max)",
-    "hostModelSlug": "meta_goofy-glacier135",
-    "provider": "meta",
-    "perf": {
-      "Index": 0.6797281481220127,
-      "DeepSWE": 0.68141592920354,
-      "Terminal-Bench v2": 0.838951310861423,
-      "SWE-Atlas-QnA": 0.518817204301075
-    }
-  },
-  {
     "agent": "Claude Code",
     "model": "Opus 5 (low)",
     "displayLabel": "Claude Code - Opus 5 (low)",
     "hostModelSlug": "anthropic_claude-opus-5",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.5940064571013324,
+      "Index": 0.5940064571013326,
       "DeepSWE": 0.569321533923304,
-      "Terminal-Bench v2": 0.820224719101123,
+      "Terminal-Bench v2": 0.820224719101124,
       "SWE-Atlas-QnA": 0.39247311827957
     }
   },
@@ -617,8 +643,8 @@
     "hostModelSlug": "openai_gpt-5-5-medium",
     "provider": "cursor",
     "perf": {
-      "Index": 0.47086936005984537,
-      "DeepSWE": 0.371681415929203,
+      "Index": 0.4708693600598457,
+      "DeepSWE": 0.371681415929204,
       "Terminal-Bench v2": 0.764044943820225,
       "SWE-Atlas-QnA": 0.276881720430108
     }
@@ -643,9 +669,9 @@
     "hostModelSlug": "anthropic_claude-sonnet-4-6",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.3864931360777617,
+      "Index": 0.38649313607776203,
       "DeepSWE": 0.289085545722714,
-      "Terminal-Bench v2": 0.674157303370786,
+      "Terminal-Bench v2": 0.674157303370787,
       "SWE-Atlas-QnA": 0.196236559139785
     }
   },
@@ -721,23 +747,10 @@
     "hostModelSlug": "openai_gpt-5-6-terra",
     "provider": "openai",
     "perf": {
-      "Index": 0.6042010361726687,
+      "Index": 0.6042010361726691,
       "DeepSWE": 0.669616519174041,
-      "Terminal-Bench v2": 0.782771535580524,
+      "Terminal-Bench v2": 0.782771535580525,
       "SWE-Atlas-QnA": 0.360215053763441
-    }
-  },
-  {
-    "agent": "Claude Code",
-    "model": "DeepSeek V4 Pro (high)",
-    "displayLabel": "Claude Code - DeepSeek V4 Pro (high)",
-    "hostModelSlug": "deepseek_deepseek-v4-pro-1m",
-    "provider": "deepseek",
-    "perf": {
-      "Index": 0.32828166191062214,
-      "DeepSWE": 0.0855457227138643,
-      "Terminal-Bench v2": 0.700374531835206,
-      "SWE-Atlas-QnA": 0.198924731182796
     }
   },
   {
@@ -799,9 +812,9 @@
     "hostModelSlug": "deepseek_deepseek-v4-pro-0813",
     "provider": "deepseek",
     "perf": {
-      "Index": 0.42779695164088,
+      "Index": 0.42779695164088033,
       "DeepSWE": 0.162241887905605,
-      "Terminal-Bench v2": 0.629213483146067,
+      "Terminal-Bench v2": 0.629213483146068,
       "SWE-Atlas-QnA": 0.491935483870968
     }
   },
@@ -838,8 +851,8 @@
     "hostModelSlug": "anthropic_claude-opus-5",
     "provider": "anthropic",
     "perf": {
-      "Index": 0.6406847456950576,
-      "DeepSWE": 0.628318584070796,
+      "Index": 0.640684745695058,
+      "DeepSWE": 0.628318584070797,
       "Terminal-Bench v2": 0.850187265917603,
       "SWE-Atlas-QnA": 0.443548387096774
     }
@@ -851,10 +864,23 @@
     "hostModelSlug": "meta_spiffy-blimp350-tbh-r708-1",
     "provider": "meta",
     "perf": {
-      "Index": 0.6164044159758908,
+      "Index": 0.6164044159758904,
       "DeepSWE": 0.581120943952802,
-      "Terminal-Bench v2": 0.816479400749064,
+      "Terminal-Bench v2": 0.816479400749063,
       "SWE-Atlas-QnA": 0.451612903225806
+    }
+  },
+  {
+    "agent": "Claude Code",
+    "model": "DeepSeek V4 Pro (high)",
+    "displayLabel": "Claude Code - DeepSeek V4 Pro (high)",
+    "hostModelSlug": "deepseek_deepseek-v4-pro-1m",
+    "provider": "deepseek",
+    "perf": {
+      "Index": 0.32828166191062214,
+      "DeepSWE": 0.0855457227138643,
+      "Terminal-Bench v2": 0.700374531835206,
+      "SWE-Atlas-QnA": 0.198924731182796
     }
   }
 ]
