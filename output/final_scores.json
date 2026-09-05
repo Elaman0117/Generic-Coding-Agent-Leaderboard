@@ -34,13 +34,13 @@
     "total_observations": 28
   },
   "scores": {
-    "Antigravity SDK v0.1.12": 0.884449420919025,
-    "Antigravity SDK v0.1.8": 0.864921519085054,
-    "Claude Code": 0.7197766320043469,
+    "Antigravity SDK v0.1.12": 0.8844494209190241,
+    "Antigravity SDK v0.1.8": 0.8649215190850531,
+    "Claude Code": 0.7197766320043457,
     "Codex": 1.0,
-    "Cursor CLI": 0.8273554128689834,
-    "Muse Code": 0.963817019006796,
-    "Opencode": 0.9189788108634235
+    "Cursor CLI": 0.8273554128689835,
+    "Muse Code": 0.9638170190067961,
+    "Opencode": 0.9189788108634226
   },
   "pairs": [
     {
@@ -57,54 +57,54 @@
       "frontend_b": "Opencode",
       "mean_ratio": 0.9411767810755287,
       "weight": 4,
-      "fit_ratio": 0.9411767810755287,
-      "abs_err": 0.0,
-      "rel_err_pct": 0.0
+      "fit_ratio": 0.9411767810755286,
+      "abs_err": -1.1102230246251565e-16,
+      "rel_err_pct": 1.1796115745189234e-14
     },
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Cursor CLI",
-      "mean_ratio": 0.869890567530698,
+      "mean_ratio": 0.8698905675306966,
       "weight": 4,
-      "fit_ratio": 0.8699727116166553,
-      "abs_err": 8.214408595730305e-05,
-      "rel_err_pct": 0.009443036747769336
+      "fit_ratio": 0.8699727116166538,
+      "abs_err": 8.214408595719203e-05,
+      "rel_err_pct": 0.00944303674775659
     },
     {
       "frontend_a": "Claude Code",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.7833092474677206,
+      "mean_ratio": 0.7833092474677201,
       "weight": 4,
-      "fit_ratio": 0.7832352862718165,
-      "abs_err": -7.396119590408201e-05,
-      "rel_err_pct": 0.009442145122527727
+      "fit_ratio": 0.7832352862718158,
+      "abs_err": -7.396119590430406e-05,
+      "rel_err_pct": 0.009442145122556077
     },
     {
       "frontend_a": "Codex",
       "frontend_b": "Cursor CLI",
       "mean_ratio": 1.2086704026415256,
       "weight": 4,
-      "fit_ratio": 1.2086704026415258,
-      "abs_err": 2.220446049250313e-16,
-      "rel_err_pct": 1.837098057830796e-14
+      "fit_ratio": 1.2086704026415256,
+      "abs_err": 0.0,
+      "rel_err_pct": 0.0
     },
     {
       "frontend_a": "Cursor CLI",
       "frontend_b": "Opencode",
-      "mean_ratio": 0.9002136752129852,
+      "mean_ratio": 0.9002136752129861,
       "weight": 4,
-      "fit_ratio": 0.9002986827211439,
-      "abs_err": 8.50075081586521e-05,
-      "rel_err_pct": 0.009443036747752119
+      "fit_ratio": 0.9002986827211449,
+      "abs_err": 8.500750815876312e-05,
+      "rel_err_pct": 0.009443036747764443
     },
     {
       "frontend_a": "Muse Code",
       "frontend_b": "Opencode",
-      "mean_ratio": 1.0487913405764437,
+      "mean_ratio": 1.0487913405764449,
       "weight": 4,
-      "fit_ratio": 1.0487913405764435,
-      "abs_err": -2.220446049250313e-16,
-      "rel_err_pct": 2.1171475805949127e-14
+      "fit_ratio": 1.0487913405764449,
+      "abs_err": 0.0,
+      "rel_err_pct": 0.0
     }
   ]
 }
